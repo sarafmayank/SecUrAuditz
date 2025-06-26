@@ -1,0 +1,1663 @@
+Control Ref. No,Control Name,Control Description,Questionnares,Evidence Required,Client Remark,Auditor Observations,Risk,Recommendations,Status
+CLD.5.1,Shared Security Responsibilities,"ISO/IEC 27017 emphasizes defining and documenting shared security responsibilities between the cloud provider and the customer. This includes clarifying roles in governance, risk management, compliance, and security ownership. A well-structured SLA should outline these responsibilities, ensuring accountability and alignment with regulatory and contractual obligations.","1. Has your organization formally documented the shared security responsibilities with your cloud provider?
+ 
+ A) Yes, all responsibilities are defined and approved in SLAs and contracts
+ B) We rely on the cloud provider’s default security measures
+ C) Only critical security responsibilities are documented, others are assumed
+ D) No, we have not explicitly documented security responsibilities",Service Level Agreement (SLA),FALSE,,,,
+,,,"2. How does your organization verify that the cloud provider fulfills their security responsibilities as per the SLA?
+ 
+ A) By conducting regular third-party security audits and compliance checks
+ B) By assuming the provider meets security obligations without verification
+ C) By relying only on the provider’s compliance certificates
+ D) We do not verify security responsibilities at all",Shared Responsibility Matrix,FALSE,,,,
+,,,"3. Does your organization have a risk assessment process in place for evaluating shared security risks with your cloud provider?
+ 
+ A) Yes, risk assessments are conducted periodically and reviewed against SLAs
+ B) Risk assessments are only performed when incidents occur
+ C) We trust the cloud provider’s risk management process entirely
+ D) No, we do not conduct formal risk assessments",Cloud Security Policy,FALSE,,,,
+,,,"4. In case of a security incident, how does your organization coordinate incident response activities with the cloud provider?
+ 
+ A) We have a documented Incident Response Plan (IRP) detailing roles and escalation paths
+ B) We rely on the cloud provider’s standard incident response processes
+ C) We respond to incidents internally without involving the provider
+ D) We do not have a structured incident response coordination process",Third-Party Audit Reports,FALSE,,,,
+,,,"5. How does your organization track compliance with regulatory requirements (e.g., GDPR, ISO 27017) in a shared responsibility model?
+ 
+ A) We maintain compliance documentation and verify provider adherence through audits
+ B) We assume compliance since the provider is ISO-certified
+ C) Compliance tracking is managed by the provider, and we do not intervene
+ D) We have no formal compliance tracking mechanisms",Risk Assessment Documentation,FALSE,,,,
+,,,"6. How is data encryption managed between your organization and the cloud provider?
+ 
+ A) Responsibilities for encryption (at-rest, in-transit) are clearly defined in SLAs
+ B) Encryption is solely managed by the cloud provider
+ C) The organization encrypts data but does not verify provider-side encryption
+ D) No formal encryption policies are in place",Incident Response Plan (IRP),FALSE,,,,
+,,,"7. Are access controls clearly defined between your organization and the cloud provider?
+ 
+ A) Yes, access control roles and privileges are documented and enforced
+ B) We rely on provider-defined default access control policies
+ C) Employees share credentials for cloud service access
+ D) Access control responsibilities are unclear",Access Control Policies,FALSE,,,,
+,,,"8. How does your organization ensure that logging and monitoring responsibilities are met in the cloud environment?
+ 
+ A) We have defined logging responsibilities and review logs regularly
+ B) We rely on the provider’s logs but do not conduct reviews
+ C) Logging is enabled but not actively monitored
+ D) No logging and monitoring procedures are in place",Compliance Documentation,FALSE,,,,
+,,,"9. Is there a process for reviewing and updating shared security responsibilities when adopting new cloud services or configurations?
+ 
+ A) Yes, reviews are conducted before any new cloud service adoption
+ B) We assume existing agreements apply to new services
+ C) Security responsibilities are only reviewed in case of compliance audits
+ D) We do not have a defined process for updating responsibilities",Security Awareness Training Records,FALSE,,,,
+,,,"10. How does your organization ensure continuous compliance with the shared responsibility model?
+ 
+ A) Through periodic security assessments, audits, and compliance reviews
+ B) By reviewing provider certifications without additional verification
+ C) By relying on provider security measures without conducting internal checks
+ D) We do not monitor compliance after initial cloud adoption",Provider Compliance Reports,FALSE,,,,
+CLD.5.2,Cloud Service Agreements (CSA) & Contracts,"ISO/IEC 27017 requires organizations to establish clear and legally binding Cloud Service Agreements (CSA) and contracts that define security responsibilities, risk allocation, compliance requirements, provider obligations, confidentiality, audit rights, and data processing terms. These agreements ensure transparency and accountability, helping clients mitigate security and regulatory risks when using cloud services.","1. Has your organization formally documented a Cloud Service Agreement (CSA) with your cloud provider?
+ 
+ A) Yes, a comprehensive CSA is in place, covering security, compliance, and legal terms
+ B) We rely on the provider’s default terms without modifications
+ C) Only pricing and uptime guarantees are documented, not security responsibilities
+ D) No formal CSA exists between our organization and the cloud provider",Cloud Service Agreement (CSA),FALSE,,,,
+,,,"2. Does the CSA explicitly define security responsibilities between your organization and the cloud provider?
+ 
+ A) Yes, the agreement outlines detailed security roles and obligations
+ B) It mentions security in general terms but lacks detailed responsibility definitions
+ C) Security is implied, but no explicit terms are included
+ D) The provider’s security responsibilities are not addressed in the agreement",Service Level Agreement (SLA),FALSE,,,,
+,,,"3. How does your organization verify that the cloud provider meets its security obligations as per the CSA?
+ 
+ A) Through independent security audits and compliance assessments
+ B) By assuming the provider follows best practices without verification
+ C) By reviewing the provider’s website for security claims
+ D) We do not have a verification process for provider compliance",Data Processing Agreement (DPA),FALSE,,,,
+,,,"4. Does the CSA include provisions for data processing and confidentiality in compliance with regulations (e.g., GDPR, ISO/IEC 27017)?
+ 
+ A) Yes, the agreement clearly defines data processing, confidentiality, and regulatory compliance
+ B) Some confidentiality clauses exist, but regulatory requirements are not explicitly covered
+ C) Data confidentiality is left to the provider’s discretion
+ D) The agreement does not mention data confidentiality or processing",Audit Rights Documentation,FALSE,,,,
+,,,"5. What risk allocation mechanisms are included in your CSA to manage security incidents and breaches?
+ 
+ A) Clearly defined liability clauses, breach notification timelines, and penalties
+ B) The provider is fully responsible for all security incidents
+ C) There is no mention of risk allocation or liability for security breaches
+ D) The organization assumes all risks without legal recourse against the provider",Risk Allocation and Liability Clauses,FALSE,,,,
+,,,"6. Does your CSA include the right to audit the cloud provider’s security and compliance measures?
+ 
+ A) Yes, audit rights are explicitly granted, with clear audit procedures
+ B) Limited audit rights are provided but require provider approval
+ C) Audit rights are mentioned but not practically enforceable
+ D) No audit rights are included in the agreement",Contract Review Reports,FALSE,,,,
+,,,"7. How does your organization ensure that the CSA remains aligned with evolving security and compliance requirements?
+ 
+ A) Through periodic contract reviews and renegotiations
+ B) We rely on the provider to update terms when needed
+ C) We assume the CSA remains valid indefinitely without updates
+ D) We do not monitor or update the CSA once signed",Provider Compliance Certifications,FALSE,,,,
+,,,"8. Are there provisions in the CSA for contract termination, ensuring secure data migration and deletion?
+ 
+ A) Yes, the agreement includes detailed exit strategies and secure data handling requirements
+ B) Termination provisions exist, but they do not address data security
+ C) The agreement does not specify termination or data migration processes
+ D) We have not reviewed the contract’s termination clauses",Termination and Data Migration Policies,FALSE,,,,
+,,,"9. Does the CSA include a Service Level Agreement (SLA) specifying security, uptime, and compliance commitments?
+ 
+ A) Yes, the SLA defines clear security, availability, and compliance metrics
+ B) The SLA only covers uptime and does not mention security
+ C) Security commitments are loosely defined without enforceable clauses
+ D) The provider does not offer an SLA for security or compliance",Incident Response and Breach Notification Clauses,FALSE,,,,
+,,,"10. How does your organization handle disputes regarding security obligations in the CSA?
+ 
+ A) Through predefined dispute resolution mechanisms within the contract
+ B) By negotiating with the provider informally when disputes arise
+ C) We rely on legal action as the first response to disputes
+ D) There is no formal dispute resolution process in place",Dispute Resolution Procedures,FALSE,,,,
+CLD.5.3,Cloud Compliance & Regulatory Adherence,"ISO/IEC 27017 requires organizations to ensure that cloud services comply with applicable regulatory and industry standards, such as GDPR, HIPAA, PCI DSS, FedRAMP, NIST, and CSA STAR. Compliance efforts should include regular risk assessments, audits, and governance frameworks to manage cloud-related security and legal obligations effectively.","1. How does your organization determine which compliance frameworks (e.g., GDPR, HIPAA, PCI DSS) apply to your cloud environment?
+ 
+ A) Through a formal compliance risk assessment and regulatory mapping
+ B) We rely on the cloud provider’s compliance claims without verification
+ C) We assume our on-premise compliance policies automatically apply to the cloud
+ D) We do not conduct formal compliance assessments for cloud services",Regulatory Compliance Assessment Reports,FALSE,,,,
+,,,"2. Does your organization regularly conduct compliance audits of its cloud service usage?
+ 
+ A) Yes, internal and third-party audits are performed at scheduled intervals
+ B) Audits are conducted only when required by external regulators
+ C) We rely solely on the cloud provider’s compliance certifications
+ D) No, we do not perform specific cloud compliance audits",Compliance Audit Reports,FALSE,,,,
+,,,"3. How does your organization verify that cloud providers comply with ISO/IEC 27017 and other applicable standards?
+ 
+ A) By reviewing the provider’s certifications and conducting independent audits
+ B) By assuming certification ensures full compliance without further checks
+ C) By relying on provider documentation without validation
+ D) We do not verify cloud provider compliance with security standards",Cloud Provider Compliance Certifications,FALSE,,,,
+,,,"4. Does your organization maintain documented evidence of cloud compliance for regulatory audits?
+ 
+ A) Yes, compliance documentation is maintained and updated regularly
+ B) Some documentation exists but is not consistently updated
+ C) We rely on verbal confirmations from the cloud provider
+ D) No formal compliance documentation is maintained",Data Processing Agreement (DPA),FALSE,,,,
+,,,"5. How does your organization ensure that cloud data processing meets GDPR or other data protection laws?
+ 
+ A) By enforcing a Data Processing Agreement (DPA) and conducting periodic compliance reviews
+ B) We assume that the cloud provider is automatically GDPR compliant
+ C) We follow GDPR only for on-premise systems, not the cloud
+ D) We do not actively ensure cloud compliance with GDPR",Contractual Compliance Clauses,FALSE,,,,
+,,,"6. Are third-party security and compliance assessments performed on your cloud provider?
+ 
+ A) Yes, we conduct or commission independent audits for verification
+ B) We rely on provider-issued compliance reports without external validation
+ C) Assessments are done only when compliance issues arise
+ D) No, we do not assess provider compliance externally",Risk Assessment and Mitigation Plans,FALSE,,,,
+,,,"7. How does your organization handle compliance gaps identified in cloud security audits?
+ 
+ A) By implementing corrective actions and tracking remediation progress
+ B) By accepting minor compliance gaps if they don’t impact core operations
+ C) By deferring the responsibility to the cloud provider
+ D) We do not have a defined process for addressing compliance gaps
+ 
+ 8. Does your organization ensure that cloud contracts include compliance obligations (e.g., PCI DSS for payment data, HIPAA for healthcare data)?
+ 
+ A) Yes, compliance obligations are explicitly documented in contracts
+ B) Compliance is implied but not contractually enforced
+ C) The provider’s general compliance is assumed to cover all obligations
+ D) Contracts do not reference specific compliance requirements
+ 
+ 9. How does your organization track updates to cloud-related regulatory requirements?
+ 
+ A) Through a compliance monitoring program and regulatory updates tracking
+ B) We review compliance only when auditors request updates
+ C) We rely on the cloud provider to notify us of changes
+ D) We do not actively track changes in compliance requirements
+ 
+ 10. How does your organization ensure encryption and data protection controls comply with applicable regulations?
+ 
+ A) By aligning encryption policies with compliance standards and verifying implementation
+ B) By assuming provider-side encryption is sufficient without verification
+ C) We encrypt data but do not validate compliance with regulations
+ D) We do not enforce encryption compliance in cloud environments",Compliance Monitoring Program Documentation,FALSE,,,,
+,,,"8. Does your organization ensure that cloud contracts include compliance obligations (e.g., PCI DSS for payment data, HIPAA for healthcare data)?
+ 
+ A) Yes, compliance obligations are explicitly documented in contracts
+ B) Compliance is implied but not contractually enforced
+ C) The provider’s general compliance is assumed to cover all obligations
+ D) Contracts do not reference specific compliance requirements",Incident and Breach Handling Policies,FALSE,,,,
+,,,"9. How does your organization track updates to cloud-related regulatory requirements?
+ 
+ A) Through a compliance monitoring program and regulatory updates tracking
+ B) We review compliance only when auditors request updates
+ C) We rely on the cloud provider to notify us of changes
+ D) We do not actively track changes in compliance requirements",Third-Party Security Assessment Reports,FALSE,,,,
+,,,"10. How does your organization ensure encryption and data protection controls comply with applicable regulations?
+ 
+ A) By aligning encryption policies with compliance standards and verifying implementation
+ B) By assuming provider-side encryption is sufficient without verification
+ C) We encrypt data but do not validate compliance with regulations
+ D) We do not enforce encryption compliance in cloud environments",Encryption & Data Security Policies,FALSE,,,,
+CLD.5.4,Cloud Security Awareness & Training,"ISO/IEC 27017 mandates organizations to implement comprehensive cloud security awareness and training programs to mitigate insider threats, phishing risks, and misconfigurations. Employees must undergo continuous learning on secure cloud practices, compliance, and threat response, with certifications like CCSP, AWS Security, and CompTIA Cloud+ encouraged for key personnel.","1. Does your organization have a formal cloud security training program for employees?
+ 
+ A) Yes, all employees receive regular cloud security training
+ B) Training is provided only to IT and security teams
+ C) Employees are expected to self-learn cloud security best practices
+ D) No formal cloud security training program exists",Cloud Security Training Policy,FALSE,,,,
+,,,"2. How often does your organization conduct cloud security awareness training?
+ 
+ A) At least annually, with periodic refresher courses
+ B) Only during employee onboarding
+ C) Only after a security incident has occurred
+ D) No structured training schedule exists",Training Attendance Records,FALSE,,,,
+,,,"3. Does cloud security training cover insider threats and employee responsibilities?
+ 
+ A) Yes, insider threat prevention and role-based security responsibilities are included
+ B) Training is focused only on external threats, not internal risks
+ C) Security awareness is left to individual employees
+ D) We do not address insider threats in our training",Phishing Simulation Reports,FALSE,,,,
+,,,"4. How does your organization assess the effectiveness of cloud security training?
+ 
+ A) Through post-training assessments, phishing simulations, and incident analysis
+ B) By tracking attendance but not testing knowledge retention
+ C) We assume employees understand security after attending sessions
+ D) No formal assessment methods are used",Training Modules & Content,FALSE,,,,
+,,,"5. Does your cloud security training include phishing prevention techniques?
+ 
+ A) Yes, employees receive phishing awareness training and simulated attack tests
+ B) Phishing awareness is mentioned but not actively tested
+ C) Only IT staff are trained on phishing threats
+ D) We do not provide phishing training to employees",Security Certification Records,FALSE,,,,
+,,,"6. Do employees handling cloud services receive specialized security certifications (e.g., CCSP, AWS Security, CompTIA Cloud+)?
+ 
+ A) Yes, employees are encouraged or required to obtain relevant certifications
+ B) Some employees pursue certifications on their own, but it's not mandated
+ C) We rely on provider documentation instead of certifications
+ D) No certification programs are in place",Training Effectiveness Assessments,FALSE,,,,
+,,,"7. Does your organization provide role-specific cloud security training?
+ 
+ A) Yes, different teams (IT, DevOps, HR, etc.) receive tailored training
+ B) A general cloud security course is provided for all employees
+ C) Only IT personnel receive cloud security training
+ D) No role-specific training exists",Policy Acknowledgment Records,FALSE,,,,
+,,,"8. How does your organization ensure continuous learning in cloud security?
+ 
+ A) Through regular training, webinars, and certification incentives
+ B) Employees receive a one-time training session but no ongoing education
+ C) Employees are expected to self-educate without structured programs
+ D) We do not focus on continuous learning for cloud security",Continuous Learning Initiatives,FALSE,,,,
+,,,"9. Are employees trained on security misconfigurations in cloud environments?
+ 
+ A) Yes, training includes best practices for secure cloud configurations
+ B) Only IT administrators are trained on cloud misconfigurations
+ C) We rely on the cloud provider to prevent misconfigurations
+ D) No specific training on misconfigurations is provided",Audit Trail for Training Compliance,FALSE,,,,
+CLD.6.1,Cloud Identity and Access Management (IAM),"ISO/IEC 27017 mandates organizations to implement robust Identity and Access Management (IAM) policies, ensuring authentication, authorization, and least privilege principles are enforced. IAM should incorporate Multi-Factor Authentication (MFA), Role-Based Access Control (RBAC), Zero Trust security models, API access security, and identity federation to safeguard cloud environments against unauthorized access and privilege escalation.","1. How does your organization enforce authentication for cloud access?
+ 
+ A) MFA is mandatory for all users accessing cloud resources
+ B) Password-based authentication is used without MFA
+ C) Employees choose their authentication methods independently
+ D) No authentication policies are explicitly enforced
+ Answer: A","IAM Policy Documentation: Formal policies defining authentication, RBAC, MFA, Zero Trust, and API security controls.",FALSE,,,,
+,,,"2. How is Role-Based Access Control (RBAC) implemented in your cloud environment?
+ 
+ A) Access is assigned based on roles, with the principle of least privilege applied
+ B) Access is granted on an ad-hoc basis without predefined roles
+ C) Users have full access by default unless restrictions are applied
+ D) RBAC is not implemented in our cloud infrastructure
+ Answer: A",Access Control Lists (ACLs): Documentation proving least privilege access enforcement in cloud environments.,FALSE,,,,
+,,,"3. How often does your organization review user access permissions to cloud resources?
+ 
+ A) Periodic reviews are conducted at least quarterly
+ B) Access reviews happen only when employees leave the organization
+ C) Access permissions are granted permanently without reviews
+ D) No formal access review process exists
+ Answer: A",MFA Enforcement Logs: Evidence showing MFA is enabled and required for cloud services.,FALSE,,,,
+,,,"4. Does your organization implement a Zero Trust approach to cloud security?
+ 
+ A) Yes, all access is continuously verified regardless of user location
+ B) Users within the corporate network are trusted by default
+ C) Access control is only enforced for external connections
+ D) Zero Trust principles are not applied to cloud security
+ Answer: A",User Access Review Reports: Periodic reports demonstrating IAM access audits and privilege reviews.,FALSE,,,,
+,,,"5. How are privileged accounts managed in your cloud environment?
+ 
+ A) Privileged accounts have just-in-time access with strict logging and monitoring
+ B) Privileged accounts are created for long-term use without monitoring
+ C) Any user can request and gain admin-level access without restrictions
+ D) Privileged accounts are not managed separately from regular accounts
+ Answer: A",Privileged Access Management (PAM) Logs: Records tracking admin and privileged account usage.,FALSE,,,,
+,,,"6. How does your organization secure API access in cloud services?
+ 
+ A) API access is controlled using authentication, authorization, and monitoring
+ B) APIs are publicly accessible without security restrictions
+ C) API security is not specifically enforced
+ D) We assume the cloud provider secures APIs by default
+ Answer: A","Federation Configuration Records: Proof of SAML, OAuth, or OpenID-based identity federation implementation.",FALSE,,,,
+,,,"7. What method does your organization use for federated identity management in cloud services?
+ 
+ A) Identity Federation via SAML, OAuth, or OpenID Connect
+ B) Separate user accounts are manually created for each cloud service
+ C) Cloud applications use standalone authentication with no federation
+ D) We do not use federated identity management
+ Answer: A","API Security Controls Evidence: API gateway logs showing authentication, encryption, and role-based API access enforcement.",FALSE,,,,
+,,,"8. How does your organization detect and respond to unauthorized access attempts?
+ 
+ A) IAM logs and anomaly detection tools alert security teams in real time
+ B) Unauthorized access is detected only during manual audits
+ C) Users are trusted to report unauthorized access themselves
+ D) No monitoring for unauthorized access is in place
+ Answer: A",IAM Log Monitoring Reports: Security audit logs and SIEM alerts related to access management.,FALSE,,,,
+,,,"9. Are IAM policies and controls regularly tested for vulnerabilities?
+ 
+ A) Yes, IAM configurations undergo regular audits and penetration testing
+ B) IAM security is only reviewed after security incidents occur
+ C) IAM settings are configured once and not reassessed
+ D) No formal IAM security testing is conducted
+ Answer: A",Incident Response Records: Documentation of actions taken on unauthorized access attempts.,FALSE,,,,
+,,,"10. How are IAM logs managed for security auditing?
+ 
+ A) IAM logs are collected, monitored, and retained per compliance standards
+ B) IAM logs are stored but not actively reviewed
+ C) IAM logs are deleted after a short retention period
+ D) IAM logging is not enabled for cloud access events
+ Answer: A",Penetration Testing & Audit Reports: Results of security tests evaluating IAM configurations.,FALSE,,,,
+CLD.6.2,Privileged Access Management (PAM),"ISO/IEC 27017 mandates organizations to implement Privileged Access Management (PAM) to secure administrator accounts, enforce just-in-time (JIT) access, and prevent privilege escalation in cloud environments. PAM controls must ensure multi-factor authentication (MFA), session monitoring, strict access reviews, and least privilege principles to protect critical cloud infrastructure.","1. How does your organization enforce privileged access controls for cloud administrators?
+ 
+ A) PAM solutions are used to manage and monitor privileged access
+ B) Administrators use shared credentials without tracking
+ C) Privileged users have permanent admin access without restrictions
+ D) No specific privileged access controls are in place
+ Answer: A","Privileged Access Policy: Documented policies outlining PAM implementation, JIT access, and privilege escalation controls.",FALSE,,,,
+,,,"2. Does your organization implement Just-In-Time (JIT) access for privileged users?
+ 
+ A) Yes, admin accounts are provisioned only when needed and revoked after use
+ B) Privileged users always have full-time access
+ C) JIT access is considered but not implemented
+ D) There are no time-based restrictions on privileged accounts
+ Answer: A","PAM Solution Configuration: Evidence of privileged access enforcement via automated tools (e.g., CyberArk, BeyondTrust, AWS IAM).",FALSE,,,,
+,,,"3. How are privileged user activities monitored in your cloud environment?
+ 
+ A) All privileged sessions are logged and reviewed periodically
+ B) Privileged access is granted without monitoring
+ C) Logs are only reviewed after a security incident occurs
+ D) There is no formal monitoring of privileged activities
+ Answer: A",MFA Enforcement Logs: Logs verifying MFA is enabled for all privileged accounts.,FALSE,,,,
+,,,"4. Does your organization enforce Multi-Factor Authentication (MFA) for privileged accounts?
+ 
+ A) Yes, MFA is mandatory for all privileged users
+ B) MFA is optional for privileged accounts
+ C) Only password-based authentication is used for privileged access
+ D) MFA is not enforced for privileged accounts
+ Answer: A",Privileged User Access Review Reports: Reports showing quarterly reviews and de-provisioning of unnecessary privileged accounts.,FALSE,,,,
+,,,"5. How often are privileged access permissions reviewed?
+ 
+ A) At least quarterly, with immediate revocation of unnecessary privileges
+ B) Only when an employee leaves the organization
+ C) Privileges are granted permanently without review
+ D) There is no formal privileged access review process
+ Answer: A","Privileged Session Logging & Monitoring Reports: Records proving privileged activity is logged, monitored, and analyzed.",FALSE,,,,
+,,,"6. How does your organization prevent privilege escalation in cloud environments?
+ 
+ A) PAM tools enforce least privilege and detect unauthorized elevation attempts
+ B) Users can escalate privileges as needed without restrictions
+ C) Privilege escalation is not actively monitored
+ D) There is no control in place to prevent privilege escalation
+ Answer: A",Just-In-Time (JIT) Access Logs: Proof that privileged accounts are activated only when needed and revoked after use.,FALSE,,,,
+,,,"7. Are privileged accounts isolated from standard user accounts?
+ 
+ A) Yes, privileged accounts are separate and not used for regular tasks
+ B) Admin users use the same account for both privileged and non-privileged tasks
+ C) Privileged access is shared among multiple users
+ D) No distinction exists between privileged and standard accounts
+ Answer: A",Privilege Escalation Prevention Controls: Logs showing attempted privilege escalations and automated blocking responses.,FALSE,,,,
+,,,"8. How does your organization handle emergency access to privileged accounts?
+ 
+ A) Emergency access is controlled through break-glass accounts with strict logging
+ B) Any user can request and obtain privileged access without restrictions
+ C) Privileged credentials are stored in shared locations for emergency use
+ D) There is no formal policy for emergency privileged access
+ Answer: A","Break-Glass Account Control Records: Documentation of emergency access procedures, approvals, and logs.",FALSE,,,,
+,,,"9. Does your organization use automated tools to enforce privileged access policies?
+ 
+ A) Yes, PAM solutions enforce access policies and monitor activity
+ B) Privileged access is manually granted without automation
+ C) Users manage their own privileged access without oversight
+ D) No automated privileged access controls are in place
+ Answer: A",Privileged Access Role Separation Evidence: Proof that admin accounts are not used for daily non-administrative tasks.,FALSE,,,,
+,,,"10. Are privileged access logs integrated with a Security Information and Event Management (SIEM) system?
+ 
+ A) Yes, privileged activity logs are collected and analyzed in SIEM
+ B) Logs are stored but not actively monitored
+ C) Privileged access events are not logged
+ D) No logging or SIEM integration exists for privileged accounts
+ Answer: A",SIEM Integration Reports: Evidence showing privileged access logs are analyzed in a SIEM system for real-time monitoring.,FALSE,,,,
+CLD.6.3,Identity Federation & Single Sign-On (SSO),"ISO/IEC 27017 mandates organizations to implement Identity Federation and Single Sign-On (SSO) to enable centralized authentication across cloud services. This ensures secure access management by integrating trusted Cloud Identity Providers (IdPs) using protocols like OAuth, SAML, and OpenID Connect. Proper controls prevent unauthorized access and improve authentication efficiency.","1. Does your organization use Single Sign-On (SSO) for cloud-based applications?
+ 
+ A) Yes, SSO is integrated with cloud identity providers
+ B) Some applications support SSO, while others require separate logins
+ C) Each cloud application has its own independent authentication system
+ D) SSO is not implemented
+ Answer: A",SSO Implementation Documentation: Proof of SSO integration with cloud applications using federated authentication.,FALSE,,,,
+,,,"2. How does your organization ensure the security of SSO authentication mechanisms?
+ 
+ A) SSO authentication is protected with MFA and strict access controls
+ B) SSO authentication relies solely on username and password
+ C) Users can bypass SSO and log in with separate credentials
+ D) There are no specific security controls for SSO
+ Answer: A","Federated Identity Provider (IdP) Configuration: Evidence of SAML, OAuth, or OpenID Connect integration.",FALSE,,,,
+,,,"3. Which protocol does your organization use for federated authentication?
+ 
+ A) SAML, OAuth, or OpenID Connect
+ B) Custom-built authentication without standard protocols
+ C) Plain text credentials stored in the cloud provider’s database
+ D) No federated authentication is used
+ Answer: A",MFA Enforcement Logs: Proof that MFA is required for all federated users.,FALSE,,,,
+,,,"4. How does your organization handle access revocation for federated identities?
+ 
+ A) Access is revoked at the identity provider (IdP) level, preventing further logins
+ B) Cloud applications must be manually updated to remove access
+ C) Users retain access even after their account is disabled
+ D) There is no formal process for access revocation
+ Answer: A",Federated Authentication Logs: Security logs showing federated login events and user activity tracking.,FALSE,,,,
+,,,"5. How does your organization prevent unauthorized access via federated identity mechanisms?
+ 
+ A) Enforces attribute-based access control (ABAC) and real-time session validation
+ B) Once authenticated, users have unlimited access to all resources
+ C) Cloud applications trust all federated users without verification
+ D) No security controls exist beyond basic authentication
+ Answer: A",Access Revocation Procedures: Documentation proving revocation of federated access at IdP level when users leave.,FALSE,,,,
+,,,"6. Is Multi-Factor Authentication (MFA) enforced for federated identity logins?
+ 
+ A) Yes, MFA is enforced at the IdP level for all federated access
+ B) MFA is only required for admin users
+ C) Users can choose whether to enable MFA for federated authentication
+ D) MFA is not enforced for federated identities
+ Answer: A",Federated Access Risk Assessment: Reports demonstrating evaluation of external identity providers before integration.,FALSE,,,,
+,,,"7. How does your organization monitor and log federated authentication events?
+ 
+ A) Authentication logs are collected and reviewed in SIEM solutions
+ B) Logs are stored but not actively reviewed
+ C) Federated authentication events are not logged
+ D) Logging is only enabled for privileged users
+ Answer: A",SIEM Integration Reports: Proof that federated authentication events are logged and monitored in SIEM tools.,FALSE,,,,
+,,,"8. How does your organization validate external identity providers used for federation?
+ 
+ A) Identity providers must be approved, vetted, and audited for security compliance
+ B) Any identity provider can be integrated without verification
+ C) Users can configure their own identity providers without approval
+ D) External IdPs are used without any security validation
+ Answer: A","Session Security Enforcement Logs: Evidence showing short session durations, token expiration policies, and active session monitoring.",FALSE,,,,
+,,,"9. What controls are in place to prevent session hijacking in federated authentication?
+ 
+ A) Short session expiration, token revocation, and active monitoring
+ B) Sessions last indefinitely once a user logs in
+ C) No additional session security mechanisms are enforced
+ D) Users manage their own session security
+ Answer: A",Identity Provider Vetting Policy: Internal documentation on how third-party IdPs are assessed for security and compliance.,FALSE,,,,
+,,,"10. How does your organization handle failed authentication attempts for federated identities?
+ 
+ A) Failed attempts are logged, analyzed, and trigger security alerts
+ B) Failed login attempts are ignored
+ C) Users are locked out permanently after multiple failures
+ D) No formal process exists for failed authentication tracking
+ Answer: A",Incident Response Records: Reports of failed federated authentication attempts and corresponding actions taken.,FALSE,,,,
+CLD.7.1,Cloud Data Encryption & Key Management,"ISO/IEC 27017 requires organizations to implement encryption and key management strategies to protect data at rest and in transit within cloud environments. This includes using strong cryptographic algorithms, Cloud Key Management Services (KMS), tokenization, and digital signatures to ensure confidentiality, integrity, and compliance with regulations like GDPR, PCI DSS, and HIPAA.","1. What encryption mechanisms does your organization use to protect cloud data at rest?
+ 
+ A) AES-256 or other strong encryption methods
+ B) Data is stored without encryption
+ C) Only obfuscation techniques are used
+ D) Encryption is applied selectively based on user requests
+ Answer: A",Encryption Policy & Procedures: Documented encryption standards for data at rest and in transit.,FALSE,,,,
+,,,"2. How does your organization secure encryption keys for cloud data?
+ 
+ A) Keys are stored and managed securely using a Cloud Key Management Service (KMS)
+ B) Encryption keys are stored in plaintext files within cloud storage
+ C) A single shared key is used for all encryption operations
+ D) Key management is not formally implemented
+ Answer: A","Cloud Key Management System (KMS) Configuration: Evidence of secure key storage, access control, and periodic key rotation.",FALSE,,,,
+,,,"3. Is end-to-end encryption enforced for data in transit across cloud services?
+ 
+ A) Yes, TLS 1.2+ or higher is enforced for all data transmissions
+ B) Only internal data transfers are encrypted, external ones are not
+ C) Encryption is not enforced for data in transit
+ D) Encryption depends on individual application settings
+ Answer: A",Encryption Logs & Reports: Proof that encryption is consistently applied across cloud services.,FALSE,,,,
+,,,"4. How often does your organization rotate encryption keys?
+ 
+ A) Keys are rotated periodically based on security policies (e.g., every 90 days)
+ B) Keys remain unchanged unless there is a security incident
+ C) Keys are reused indefinitely without rotation
+ D) Key rotation is not considered a security requirement
+ Answer: A",TLS Implementation Reports: Evidence of TLS 1.2+ or higher being enforced for data in transit.,FALSE,,,,
+,,,"5. What measures are in place to prevent unauthorized access to encryption keys?
+ 
+ A) Role-based access control (RBAC) and MFA are enforced for key access
+ B) Keys are stored in unsecured locations accessible by all employees
+ C) Encryption keys are embedded within application source code
+ D) No specific measures are in place to restrict key access
+ Answer: A",Key Rotation Logs: Documentation verifying that encryption keys are rotated as per security policies.,FALSE,,,,
+,,,"6. Does your organization use hardware security modules (HSMs) for key protection?
+ 
+ A) Yes, HSMs or cloud-based KMS with HSM-backed security are used
+ B) No, encryption keys are stored in local databases
+ C) HSMs are used, but they are not regularly maintained
+ D) HSMs are not part of the key management strategy
+ Answer: A",Access Control Reports for Encryption Keys: Evidence that RBAC and MFA are enforced for key access.,FALSE,,,,
+,,,"7. How does your organization ensure the integrity of encrypted cloud data?
+ 
+ A) Digital signatures and cryptographic hashes are used for data verification
+ B) Data is encrypted but not validated for integrity
+ C) Only access controls are used for data integrity, without cryptographic checks
+ D) Integrity verification is handled manually when issues arise
+ Answer: A",Use of Hardware Security Modules (HSMs): Proof of HSM-backed key protection or cloud KMS with HSM support.,FALSE,,,,
+,,,"8. How does your organization handle encryption key lifecycle management?
+ 
+ A) Keys are created, stored, rotated, and destroyed as per security policies
+ B) Keys are generated once and used indefinitely
+ C) There is no formal key lifecycle management process
+ D) Encryption keys are deleted without logging or tracking
+ Answer: A",Digital Signature & Data Integrity Verification Reports: Documentation showing cryptographic hash usage for data integrity.,FALSE,,,,
+,,,"9. What type of encryption does your organization use for database encryption in cloud environments?
+ 
+ A) Transparent Data Encryption (TDE) or column-level encryption
+ B) Data is stored unencrypted in cloud databases
+ C) Only passwords are encrypted, but other data is left unprotected
+ D) Encryption is applied inconsistently based on business unit preferences
+ Answer: A","Database Encryption Configuration Evidence: Proof that TDE, column-level encryption, or other methods are implemented.",FALSE,,,,
+,,,"10. How does your organization ensure compliance with regulatory encryption requirements?
+ 
+ A) Encryption practices are aligned with GDPR, PCI DSS, HIPAA, and ISO/IEC 27017
+ B) Compliance requirements are considered optional
+ C) Encryption is performed, but compliance is not formally verified
+ D) There is no structured approach to compliance verification
+ Answer: A","Regulatory Compliance Documentation: Reports showing that encryption controls align with GDPR, PCI DSS, HIPAA, and ISO 27017 requirements.",FALSE,,,,
+CLD.7.2,Cloud Data Classification and Handling,"ISO/IEC 27017 mandates that organizations establish data classification and handling policies to protect sensitive cloud data based on risk, compliance, and business needs. This includes defining classification levels (e.g., Public, Internal, Confidential, Restricted), applying data labeling, enforcing access controls, implementing data masking, and aligning with regulatory requirements like GDPR and HIPAA.","1. Does your organization have a formal data classification policy for cloud-stored data?
+ 
+ A) Yes, data is classified based on sensitivity and regulatory requirements
+ B) Some data is classified, but not all cloud data is covered
+ C) There is no formal data classification policy in place
+ D) Data classification is left to individual users' discretion
+ Answer: A","Data Classification Policy: A formal documented policy defining classification levels (e.g., Public, Internal, Confidential, Restricted).",FALSE,,,,
+,,,"2. How does your organization enforce access control based on data classification levels?
+ 
+ A) Access is granted based on role-based access control (RBAC) and data sensitivity
+ B) All employees have equal access to all data
+ C) Access control is applied manually on an ad-hoc basis
+ D) Data access is unrestricted, and classification does not affect permissions
+ Answer: A",Access Control Reports: Evidence of role-based access control (RBAC) enforcement for classified data.,FALSE,,,,
+,,,"3. What classification levels does your organization use for cloud-stored data?
+ 
+ A) Public, Internal, Confidential, Restricted (or similar levels)
+ B) All data is treated the same with no classification
+ C) Classification is applied to only a few critical datasets
+ D) Classification levels change dynamically without formal documentation
+ Answer: A",Data Labeling Records: Proof of automatic or manual data labeling/tagging in cloud environments.,FALSE,,,,
+,,,"4. How does your organization ensure that classified data is labeled appropriately in cloud storage?
+ 
+ A) Data is labeled automatically using metadata tagging and DLP solutions
+ B) Labeling is a manual process and inconsistently applied
+ C) Data labeling is not enforced across cloud environments
+ D) Users decide whether to label data without any formal requirements
+ Answer: A",Retention Policy Documentation: Policies defining data retention periods for each classification level.,FALSE,,,,
+,,,"5. How are retention policies enforced for different data classification levels?
+ 
+ A) Retention policies are defined based on regulatory and business requirements
+ B) Retention periods are arbitrary and not formally documented
+ C) Data is retained indefinitely without regard to classification levels
+ D) Users decide retention periods individually without guidance
+ Answer: A",Data Masking Implementation Evidence: Proof that masking techniques are applied to sensitive classified data.,FALSE,,,,
+,,,"6. Does your organization implement data masking for classified data in cloud environments?
+ 
+ A) Yes, data masking is used to protect sensitive information
+ B) No, full data visibility is available to all authorized users
+ C) Data masking is applied only for external access but not internally
+ D) Masking is implemented inconsistently and without clear policies
+ Answer: A","Regulatory Compliance Mapping: Documentation showing alignment with GDPR, HIPAA, and other compliance frameworks.",FALSE,,,,
+,,,"7. How does your organization ensure compliance with data classification regulations such as GDPR and HIPAA?
+ 
+ A) Classification policies align with regulatory and industry standards
+ B) Compliance is assumed without formal classification enforcement
+ C) Data classification is performed but not mapped to regulatory requirements
+ D) There is no compliance tracking for classified data
+ Answer: A",Encryption & Security Controls: Logs showing encryption usage for highly classified data in cloud storage and transit.,FALSE,,,,
+,,,"8. How does your organization prevent unauthorized access to highly classified data in the cloud?
+ 
+ A) Encryption, access controls, monitoring, and strict authorization
+ B) Only username and password authentication is used for protection
+ C) Classified data is accessible to all internal employees without restrictions
+ D) No additional security controls are applied beyond default cloud settings
+ Answer: A",Cloud Audit Logs: Evidence of monitoring and enforcement of classification policies.,FALSE,,,,
+,,,"9. How does your organization verify the effectiveness of data classification policies?
+ 
+ A) Through regular audits, monitoring, and policy enforcement reviews
+ B) Effectiveness is assumed and not formally reviewed
+ C) Employees provide feedback, but there are no structured audits
+ D) There is no mechanism in place to verify data classification enforcement
+ Answer: A",Incident Response Records: Documentation of how classified data security incidents are managed.,FALSE,,,,
+,,,"10. How does your organization handle classified data when transferring it between cloud services?
+ 
+ A) Data encryption, access controls, and secure transfer protocols are enforced
+ B) Data is transferred without encryption but monitored
+ C) Transfers are performed manually without security checks
+ D) No specific measures are in place for classified data transfers
+ Answer: A",Employee Training & Awareness Reports: Proof that staff is trained on data classification and handling procedures.,FALSE,,,,
+CLD.7.3,Cloud Data Loss Prevention (DLP),"ISO/IEC 27017 mandates organizations to implement Cloud Data Loss Prevention (DLP) controls to mitigate data exfiltration risks. This includes content inspection, file monitoring, endpoint DLP policies, and automated detection mechanisms to prevent unauthorized data leakage, transfer, or sharing. DLP solutions help enforce compliance with GDPR, HIPAA, and PCI DSS by restricting sensitive data movement across cloud environments.","1. Does your organization have a Data Loss Prevention (DLP) policy in place for cloud environments?
+ 
+ A) Yes, a formal DLP policy is enforced across cloud services
+ B) There is no specific DLP policy in place
+ C) DLP is only applied to on-premises data, not cloud environments
+ D) Employees are responsible for securing their own data without formal controls
+ Answer: A",DLP Policy Documentation: A formal Data Loss Prevention policy covering cloud environments.,FALSE,,,,
+,,,"2. What techniques does your organization use to detect and prevent unauthorized data transfers?
+ 
+ A) Content inspection, file monitoring, and behavioral analytics
+ B) Manual review of file transfers on an ad-hoc basis
+ C) No proactive measures are in place to prevent data leaks
+ D) Data transfers are allowed without restriction, relying on user discretion
+ Answer: A","DLP Rule Configuration Reports: Evidence that DLP policies are enforced across cloud storage, email, and collaboration tools.",FALSE,,,,
+,,,"3. How does your organization prevent sensitive data from being exfiltrated through cloud applications?
+ 
+ A) Cloud DLP rules monitor and block unauthorized data sharing
+ B) Only firewalls are used, without cloud-specific DLP enforcement
+ C) There is no monitoring for data exfiltration in cloud applications
+ D) Employees are trusted to prevent data leaks without automated controls
+ Answer: A",Incident Response Logs: Records showing DLP alerts and responses to data exfiltration attempts.,FALSE,,,,
+,,,"4. Does your organization use automated DLP tools to inspect files and messages for sensitive data?
+ 
+ A) Yes, automated DLP solutions scan content for policy violations
+ B) Only manual inspections are performed when a data breach is suspected
+ C) No file scanning is implemented for sensitive data in cloud storage
+ D) Files are encrypted, but no further inspections are performed
+ Answer: A","Cloud Monitoring Reports: Proof of file scanning, content inspection, and anomaly detection.",FALSE,,,,
+,,,"5. How does your organization ensure that endpoint devices comply with cloud DLP policies?
+ 
+ A) Endpoint DLP agents enforce security rules on managed devices
+ B) Employees are responsible for securing their own devices
+ C) DLP policies only apply to cloud storage, not endpoints
+ D) There are no controls on endpoint devices for data loss prevention
+ Answer: A",Endpoint DLP Enforcement Logs: Evidence of DLP agents on managed devices and enforced security policies.,FALSE,,,,
+,,,"6. What actions are taken when a DLP rule is triggered in your cloud environment?
+ 
+ A) Alerts are generated, and automatic blocking or encryption is applied
+ B) Incidents are logged but no automatic action is taken
+ C) DLP violations are only reviewed during periodic security audits
+ D) There are no automated responses to potential data loss events
+ Answer: A",User Access & Sharing Controls: Reports showing how sensitive data sharing is restricted in cloud applications.,FALSE,,,,
+,,,"7. How does your organization classify sensitive data for effective DLP enforcement?
+ 
+ A) Data is categorized based on sensitivity levels (e.g., Confidential, Restricted)
+ B) No classification framework is in place for DLP implementation
+ C) Only personally identifiable information (PII) is classified, not all sensitive data
+ D) Data classification is applied manually without automated enforcement
+ Answer: A","DLP Compliance Mapping: Documentation proving alignment with GDPR, HIPAA, and PCI DSS requirements.",FALSE,,,,
+,,,"8. How are cloud collaboration tools (e.g., Google Drive, Microsoft OneDrive) monitored for potential data leaks?
+ 
+ A) DLP rules scan shared files for sensitive data and apply restrictions
+ B) File sharing is unrestricted, relying on user judgment
+ C) Only external sharing is monitored, but internal transfers are not
+ D) No monitoring is in place for data shared through cloud collaboration tools
+ Answer: A",Audit & Review Reports: Evidence that DLP policies are reviewed and updated regularly.,FALSE,,,,
+,,,"9. Does your organization have a process for reviewing and updating DLP policies?
+ 
+ A) Yes, policies are reviewed regularly and updated based on risk assessments
+ B) Policies are created once but not actively maintained
+ C) Only IT teams review DLP settings, without formal policy updates
+ D) There is no structured approach to DLP policy review and updates
+ Answer: A",Security Awareness Training Reports: Proof that employees are trained on cloud DLP best practices.,FALSE,,,,
+,,,"10. How does your organization ensure compliance with regulatory requirements related to data loss prevention?
+ 
+ A) DLP controls align with GDPR, HIPAA, PCI DSS, and ISO/IEC 27017
+ B) Compliance is considered but not enforced through DLP mechanisms
+ C) Data protection relies on encryption alone, without DLP rules
+ D) There is no regulatory compliance strategy related to DLP
+ Answer: A","Automated Remediation Logs: Documentation showing how DLP rules trigger automated security actions (e.g., blocking, encrypting, alerting).",FALSE,,,,
+CLD.8.1,Cloud Network Security,"ISO/IEC 27017 mandates organizations to implement Cloud Network Security controls to protect cloud infrastructure and data against unauthorized access, attacks, and breaches. This includes firewalls, Virtual Private Cloud (VPC), network segmentation, secure access controls, VPNs, Intrusion Detection and Prevention Systems (IDS/IPS), secure communication protocols, and Zero Trust Architecture to ensure a robust and compliant cloud security posture.","1. How does your organization enforce network segmentation in cloud environments?
+ 
+ A) Using Virtual Private Clouds (VPCs), subnets, and security groups
+ B) There is no segmentation; all resources share the same network
+ C) Firewalls are used, but no specific segmentation strategy is in place
+ D) Network segmentation is manually configured on an ad-hoc basis
+ Answer: A","Network Security Policy: A documented policy detailing firewall rules, VPC segmentation, and access control.",FALSE,,,,
+,,,"2. Does your organization utilize firewalls to protect cloud-based workloads?
+ 
+ A) Yes, firewalls are implemented at network and host levels
+ B) Only on-premises firewalls are used, not cloud-based firewalls
+ C) Firewalls are not used, relying solely on application security
+ D) Cloud services come with default protection, so firewalls are unnecessary
+ Answer: A",Firewall Configuration Reports: Evidence that cloud firewalls and security groups are configured properly.,FALSE,,,,
+,,,"3. How is secure remote access to cloud resources ensured?
+ 
+ A) VPNs, Multi-Factor Authentication (MFA), and identity-based access controls
+ B) Remote access is unrestricted and open to all users
+ C) Employees use personal credentials without additional security controls
+ D) Access is granted based on static IP addresses alone
+ Answer: A","VPN & Secure Access Logs: Proof of secure remote access enforcement using VPNs, MFA, and restricted access policies.",FALSE,,,,
+,,,"4. How does your organization detect and respond to network-based threats in the cloud?
+ 
+ A) Intrusion Detection and Prevention Systems (IDS/IPS) with automated alerts
+ B) Threats are manually reviewed without real-time monitoring
+ C) No threat detection is in place for cloud networks
+ D) Only antivirus software is used for threat detection
+ Answer: A",IDS/IPS Monitoring Reports: Logs showing network intrusion detection and prevention measures in place.,FALSE,,,,
+,,,"5. How does your organization secure data transmission across cloud networks?
+ 
+ A) Encrypted communication using TLS/SSL and IPsec VPNs
+ B) Data is transferred in plaintext within the internal network
+ C) Security for data transmission is not enforced
+ D) Encryption is only used for internet-facing traffic, not internal traffic
+ Answer: A","Cloud Network Segmentation Design: Documentation on VPC structure, microsegmentation, and security zoning.",FALSE,,,,
+,,,"6. How is least privilege access enforced for cloud network management?
+ 
+ A) Role-Based Access Control (RBAC) and Just-In-Time (JIT) access
+ B) All administrators have full network access without restrictions
+ C) Network access permissions are assigned manually as needed
+ D) No formal policy for least privilege access exists
+ Answer: A",Data Encryption in Transit Logs: Evidence that TLS/SSL or IPsec VPNs are enforced for data transfers.,FALSE,,,,
+,,,"7. What measures are in place to prevent unauthorized lateral movement within the cloud network?
+ 
+ A) Microsegmentation, network policies, and Zero Trust security
+ B) No restrictions, as long as users are authenticated
+ C) Access is granted at the network perimeter without internal segmentation
+ D) Lateral movement is monitored but not actively restricted
+ Answer: A",Zero Trust Policy Implementation: Documentation demonstrating least privilege access and microsegmentation strategies.,FALSE,,,,
+,,,"8. How frequently does your organization review cloud network security configurations?
+ 
+ A) Regular security audits and automated configuration assessments
+ B) Only when a security incident occurs
+ C) Configuration reviews are done manually on an infrequent basis
+ D) Cloud security configurations are never reviewed after initial setup
+ Answer: A","Cloud Security Compliance Reports: Proof of alignment with ISO/IEC 27017, NIST, CIS, and industry best practices.",FALSE,,,,
+,,,"9. How does your organization prevent unauthorized API access to cloud network resources?
+ 
+ A) API security policies, rate limiting, authentication, and encryption
+ B) APIs are accessible to all users without restrictions
+ C) API access control is handled only at the application level
+ D) API keys are used but not regularly rotated
+ Answer: A","API Security Policies & Logs: Evidence that API access is secured using authentication, rate limiting, and monitoring.",FALSE,,,,
+,,,"10. How does your organization enforce compliance with cloud network security standards?
+ 
+ A) Continuous compliance monitoring, audits, and adherence to ISO 27017, NIST, and CIS benchmarks
+ B) Compliance is assumed but not actively monitored
+ C) Network security is evaluated only during annual audits
+ D) There are no formal compliance measures for cloud network security
+ Answer: A",Cloud Network Security Audit Reports: Documentation of periodic reviews and remediation of security misconfigurations.,FALSE,,,,
+CLD.8.2,Secure API Management,"ISO/IEC 27017 requires organizations to secure API communications by implementing API gateway security, authentication (OAuth, API keys), rate limiting, and encryption to prevent data leakage, unauthorized access, and abuse. Web Application Firewalls (WAFs) and DLP policies must be enforced to monitor API traffic and protect against threats like API abuse, injection attacks, and data exfiltration.","1. How does your organization enforce authentication for API access?
+ 
+ A) OAuth, API keys, and federated authentication mechanisms
+ B) No authentication is required for public APIs
+ C) API authentication is left to developers without a standard policy
+ D) User credentials are stored in plaintext for authentication
+ Answer: A","API Security Policy: A formal policy defining API authentication, encryption, and access controls.",FALSE,,,,
+,,,"2. How does your organization prevent API abuse and excessive usage?
+ 
+ A) Rate limiting, throttling, and API gateway controls
+ B) No limits are imposed on API usage
+ C) API abuse is monitored but no preventive measures are enforced
+ D) API security is only checked when performance issues arise
+ Answer: A","API Gateway Logs & Configuration: Evidence of rate limiting, authentication enforcement, and access controls.",FALSE,,,,
+,,,"3. What security controls are in place to protect APIs from injection attacks (e.g., SQL Injection, XML Injection)?
+ 
+ A) Web Application Firewalls (WAFs), input validation, and threat monitoring
+ B) API security is handled by endpoint applications, not at the API level
+ C) APIs rely on user trust without validation mechanisms
+ D) No controls are in place to mitigate injection risks
+ Answer: A",WAF Implementation Report: Proof of Web Application Firewall (WAF) rules protecting API endpoints.,FALSE,,,,
+,,,"4. How does your organization ensure that sensitive data transmitted through APIs is secure?
+ 
+ A) TLS/SSL encryption and tokenization for sensitive data
+ B) Data is transmitted in plaintext for performance optimization
+ C) Encryption is used only for external APIs, not internal ones
+ D) API traffic is assumed to be secure without verification
+ Answer: A",Encryption Enforcement Logs: Documentation of TLS/SSL usage for API data transmission.,FALSE,,,,
+,,,"5. How does your organization prevent unauthorized API calls from external users?
+ 
+ A) Access control mechanisms, token validation, and IP whitelisting
+ B) All APIs are publicly accessible by default
+ C) No specific restrictions are applied to external API calls
+ D) Only a basic username-password authentication is used
+ Answer: A",DLP Policy for API Traffic: Evidence that sensitive data is restricted from unauthorized exposure via APIs.,FALSE,,,,
+,,,"6. What measures are taken to protect against API data leakage?
+ 
+ A) Data Loss Prevention (DLP) policies, role-based access controls (RBAC), and logging
+ B) API endpoints expose all data without access restrictions
+ C) API traffic is encrypted but no additional data protection is enforced
+ D) Data leakage is only investigated after incidents occur
+ Answer: A",API Security Monitoring Reports: Logs showing real-time monitoring and logging of API activity.,FALSE,,,,
+,,,"7. How often are API security configurations and access controls reviewed?
+ 
+ A) Regular security audits, automated scanning, and continuous monitoring
+ B) API security settings are checked only when issues arise
+ C) API security configurations are reviewed annually but not actively enforced
+ D) API security settings are not reviewed after initial implementation
+ Answer: A","Access Control Audit Logs: Proof of RBAC, OAuth, and IP-based restrictions on API usage.",FALSE,,,,
+,,,"8. How does your organization monitor and log API activities for security incidents?
+ 
+ A) Centralized logging, real-time monitoring, and anomaly detection
+ B) API activity logs are only reviewed when an incident is reported
+ C) API logs are generated but not actively analyzed
+ D) No API activity logging is in place
+ Answer: A",Third-Party API Security Assessments: Documentation verifying risk assessments for third-party API integrations.,FALSE,,,,
+,,,"9. What is your organization’s approach to securing third-party APIs integrated into cloud services?
+ 
+ A) Security assessments, API sandbox testing, and access controls
+ B) Third-party APIs are used without security reviews
+ C) API security is assumed to be managed by the provider
+ D) No specific security checks are performed for third-party APIs
+ Answer: A",API Security Incident Reports: Records of security incidents related to API abuse and mitigation actions taken.,FALSE,,,,
+,,,"10. How does your organization ensure API security compliance with regulations like GDPR and ISO/IEC 27017?
+ 
+ A) APIs enforce data minimization, encryption, and secure authentication
+ B) Compliance is considered but not technically enforced through APIs
+ C) API security is checked only when requested by regulatory auditors
+ D) No formal compliance approach exists for API security
+ Answer: A","Regulatory Compliance Reports: Evidence that API security aligns with ISO/IEC 27017, GDPR, and industry standards.",FALSE,,,,
+CLD.8.3,Cloud Perimeter Defense,"ISO/IEC 27017 mandates Cloud Perimeter Defense to prevent unauthorized access, intrusion, and network-based attacks. This includes cloud-native firewalls, cloud-based Intrusion Detection and Prevention Systems (IDS/IPS), Network Access Control (NAC), and security group policies. Organizations must implement strict inbound/outbound traffic rules, segmentation, and continuous monitoring to secure cloud perimeters against cyber threats.","1. How does your organization control inbound and outbound traffic to cloud environments?
+ 
+ A) Cloud-native firewalls and security group policies
+ B) Traffic is unrestricted to allow flexibility
+ C) Network traffic rules are only configured during setup and not reviewed regularly
+ D) Only default cloud provider security settings are used
+ Answer: A","Cloud Firewall Configuration Reports: Evidence of firewall rules, inbound/outbound traffic controls, and network policies.",FALSE,,,,
+,,,"2. What measures are in place to detect and respond to unauthorized network intrusions in the cloud?
+ 
+ A) Cloud-based IDS/IPS with real-time monitoring and automated alerts
+ B) Manual review of logs without automated intrusion detection
+ C) No intrusion detection is implemented
+ D) Only endpoint security solutions are relied upon
+ Answer: A",IDS/IPS Logs and Reports: Documentation proving active threat detection and response mechanisms.,FALSE,,,,
+,,,"3. How does your organization enforce network access control for cloud resources?
+ 
+ A) Role-based access, security groups, and least privilege principles
+ B) Any user can access cloud resources without restrictions
+ C) Network access is managed manually without defined policies
+ D) Default access settings are used without modifications
+ Answer: A",Security Group Policies: Proof that least privilege access and segmentation are enforced.,FALSE,,,,
+,,,"4. How are cloud firewalls configured to protect against external threats?
+ 
+ A) Deny-all policy by default with whitelisted allowed traffic
+ B) All traffic is allowed by default for convenience
+ C) Only internal traffic filtering is enforced, without external controls
+ D) Firewalls are in place but not actively monitored
+ Answer: A",Network Access Control Logs: Logs demonstrating NAC enforcement and access restriction policies.,FALSE,,,,
+,,,"5. What protections are in place to prevent lateral movement of attackers within the cloud network?
+ 
+ A) Microsegmentation, VPC security policies, and network zoning
+ B) All internal network traffic is allowed without restrictions
+ C) Internal traffic is monitored but not actively restricted
+ D) Network segmentation is not implemented in the cloud
+ Answer: A","Microsegmentation Documentation: Evidence of network zoning, segmentation, and isolation of cloud workloads.",FALSE,,,,
+,,,"6. How does your organization ensure security group policies are properly configured and reviewed?
+ 
+ A) Regular audits, automated configuration scans, and least privilege enforcement
+ B) Security groups are defined once and not regularly updated
+ C) All security groups allow unrestricted access for easier deployment
+ D) No formal security group policies are in place
+ Answer: A",Cloud Perimeter Security Audit Reports: Reports showing regular security assessments and remediation actions.,FALSE,,,,
+,,,"7. How do you ensure cloud perimeter defense is compliant with industry security standards?
+ 
+ A) Continuous monitoring, compliance audits, and ISO 27017 alignment
+ B) Compliance is checked only when an audit is scheduled
+ C) Cloud security settings are assumed to be compliant without verification
+ D) No compliance checks are performed for perimeter security
+ Answer: A",Incident Response Playbooks: Formal procedures detailing response actions for perimeter defense breaches.,FALSE,,,,
+,,,"8. What controls are in place to prevent Distributed Denial of Service (DDoS) attacks on cloud services?
+ 
+ A) DDoS protection services, traffic filtering, and automated rate limiting
+ B) No specific protections are in place for DDoS attacks
+ C) DDoS protection is only considered after an attack occurs
+ D) All inbound traffic is allowed, assuming no DDoS threats exist
+ Answer: A","DDoS Protection Implementation Proof: Evidence of rate limiting, traffic filtering, and DDoS mitigation strategies.",FALSE,,,,
+,,,"9. How frequently does your organization review firewall and IDS/IPS rules for cloud environments?
+ 
+ A) Regular security assessments, automated rule validation, and log analysis
+ B) Firewall rules are reviewed only when a security incident occurs
+ C) Firewall settings are applied once and never revisited
+ D) IDS/IPS configurations are not reviewed regularly
+ Answer: A","Compliance Audit Reports: Documentation showing adherence to ISO/IEC 27017, NIST, and CIS cloud security benchmarks.",FALSE,,,,
+,,,"10. How does your organization handle security incidents related to perimeter defense breaches?
+ 
+ A) Incident response playbooks, logging, forensic analysis, and mitigation actions
+ B) Incidents are addressed reactively without predefined procedures
+ C) Only critical security incidents are investigated, while minor ones are ignored
+ D) No formal incident response plan exists for perimeter security breaches
+ Answer: A","Automated Monitoring & Alerting Proof: Logs from SIEM solutions, automated security monitoring, and cloud security tools.",FALSE,,,,
+CLD.9.1,Cloud Logging & Security Event Monitoring,"ISO/IEC 27017 mandates comprehensive security event monitoring to detect, respond to, and mitigate threats in cloud environments. Organizations must implement Security Information and Event Management (SIEM) solutions, log analysis, and automated threat detection. Cloud logging (e.g., AWS CloudTrail, Azure Monitor) must be enabled for forensics, compliance, and incident handling. Logs should be securely stored, analyzed in real-time, and regularly reviewed to ensure effective monitoring.","1. How does your organization ensure security logs are collected and monitored in cloud environments?
+ 
+ A) Using centralized logging solutions such as SIEM, CloudTrail, or Azure Monitor
+ B) Logs are stored but not actively monitored
+ C) Only critical logs are collected, and others are discarded
+ D) Logging is not implemented for cloud environments
+ Answer: A","Log Management Policy: Documentation defining log collection, storage, retention, and security requirements.",FALSE,,,,
+,,,"2. What mechanisms are in place to detect and alert on security events in real time?
+ 
+ A) Automated threat detection, SIEM correlation, and alerting mechanisms
+ B) Security teams manually review logs when incidents occur
+ C) Alerts are only generated for known attack signatures, without anomaly detection
+ D) No automated security event detection is implemented
+ Answer: A","SIEM Configuration & Reports: Proof of SIEM deployment, correlation rules, and incident response automation.",FALSE,,,,
+,,,"3. How are logs protected from unauthorized modification or deletion?
+ 
+ A) Write-once, read-many (WORM) storage, access controls, and encryption
+ B) Logs are stored in plaintext without security controls
+ C) Log files can be modified by any user with cloud access
+ D) Logs are only retained temporarily and are not secured
+ Answer: A","Cloud Logging Configuration: Evidence of AWS CloudTrail, Azure Monitor, or similar logging mechanisms.",FALSE,,,,
+,,,"4. How does your organization handle log retention and compliance requirements?
+ 
+ A) Logs are retained based on regulatory requirements (e.g., GDPR, ISO 27017, PCI DSS)
+ B) Logs are deleted after a short period to save storage costs
+ C) Retention policies are not defined, and logs are stored indefinitely
+ D) Only operational logs are retained, while security logs are discarded
+ Answer: A","Log Integrity Proof: Evidence of WORM storage, access controls, and encryption to prevent log tampering.",FALSE,,,,
+,,,"5. What measures are in place to correlate cloud security events for threat detection?
+ 
+ A) SIEM integration, log correlation, and behavioral analytics
+ B) Logs are stored but not correlated for analysis
+ C) Each system generates logs independently without a unified view
+ D) Security event correlation is done only in case of major incidents
+ Answer: A","Threat Detection Reports: Logs demonstrating automated anomaly detection, correlation, and threat analysis.",FALSE,,,,
+,,,"6. How does your organization ensure logs are reviewed regularly?
+ 
+ A) Automated log analysis, scheduled manual reviews, and compliance audits
+ B) Logs are only reviewed when an incident occurs
+ C) Log reviews are conducted annually, with no real-time monitoring
+ D) Security logs are never reviewed due to resource constraints
+ Answer: A","Incident Response Reports: Documentation of past incidents, investigations, and remediation actions.",FALSE,,,,
+,,,"7. What incident response mechanisms are in place for detected security events?
+ 
+ A) Automated response actions, security playbooks, and forensics investigations
+ B) Security events are recorded but not acted upon immediately
+ C) Incidents are investigated manually without predefined response processes
+ D) No formal incident response plan exists for cloud security events
+ Answer: A",Log Retention & Compliance Reports: Records showing log retention policies meeting ISO 27017 and regulatory requirements.,FALSE,,,,
+,,,"8. How does your organization ensure audit logs are available for forensic investigations?
+ 
+ A) Secure storage, access control, and long-term retention of logs
+ B) Logs are stored but can be deleted by any administrator
+ C) Logs are not kept long enough for forensic analysis
+ D) Audit logs are not used for forensic investigations
+ Answer: A",Real-Time Alerting & Monitoring Logs: Screenshots or reports from security tools showing automated alerts and monitoring activities.,FALSE,,,,
+,,,"9. How do you ensure compliance with regulatory logging requirements (e.g., ISO 27017, GDPR, PCI DSS)?
+ 
+ A) Audit logs are configured according to compliance requirements and regularly reviewed
+ B) Compliance logging is considered but not enforced through policies
+ C) Logs are collected but not assessed for compliance
+ D) Compliance logs are only generated during external audits
+ Answer: A",Access Control Logs: Proof that only authorized personnel can access and manage security logs.,FALSE,,,,
+,,,"10. How does your organization detect anomalous behavior in cloud environments?
+ 
+ A) Machine learning-based analytics, behavior anomaly detection, and SIEM alerts
+ B) Security teams manually inspect logs for suspicious activity
+ C) Only signature-based detection is used, without anomaly analysis
+ D) Anomaly detection is not part of cloud security monitoring
+ Answer: A",Forensic Investigation Reports: Past forensic cases where log analysis played a role in security incident resolution.,FALSE,,,,
+CLD.9.2,Cloud Threat Intelligence,"ISO/IEC 27017 emphasizes Cloud Threat Intelligence to proactively detect and mitigate cyber threats. Organizations must leverage threat hunting, anomaly detection, external intelligence feeds, and AI-based security analytics to identify risks in real time. Cloud security teams should integrate automated threat intelligence platforms (TIPs), SIEM correlation, and behavioral analysis to enhance security posture and respond to evolving threats effectively.","1. How does your organization collect and analyze external threat intelligence relevant to cloud security?
+ 
+ A) Integrating external threat feeds (e.g., MITRE ATT&CK, VirusTotal, FS-ISAC) into security monitoring
+ B) Relying only on internal logs without external intelligence sources
+ C) Manually researching threats without automated intelligence platforms
+ D) No threat intelligence mechanisms are implemented
+ Answer: A","Threat Intelligence Policy: Formal documentation of how threat intelligence is collected, analyzed, and acted upon.",FALSE,,,,
+,,,"2. What measures are in place for proactive threat hunting in cloud environments?
+ 
+ A) Dedicated threat-hunting teams, anomaly detection tools, and forensic analysis
+ B) Waiting for security alerts before investigating threats
+ C) Only reviewing logs manually after a security incident
+ D) No threat-hunting activities are performed
+ Answer: A",Threat Intelligence Platform (TIP) Logs: Reports showing integration of threat feeds from external sources.,FALSE,,,,
+,,,"3. How does your organization use AI and machine learning for cloud threat intelligence?
+ 
+ A) AI-based security analytics for behavior detection, anomaly identification, and automated response
+ B) AI is used only for general IT automation, not security
+ C) Threat detection relies purely on signature-based methods
+ D) No AI-driven analytics are used for threat intelligence
+ Answer: A",SIEM Threat Detection Reports: Logs demonstrating correlation of threat intelligence with cloud security events.,FALSE,,,,
+,,,"4. How are anomalies detected within your cloud infrastructure?
+ 
+ A) Behavioral analytics, AI-driven anomaly detection, and real-time monitoring
+ B) Manual review of logs without automated detection
+ C) Relying on predefined attack signatures without behavioral analysis
+ D) Anomalies are only detected after a security breach has occurred
+ Answer: A",Anomaly Detection Reports: Evidence of AI-driven behavioral analytics and detection of abnormal cloud activities.,FALSE,,,,
+,,,"5. What platforms does your organization use to integrate cloud threat intelligence?
+ 
+ A) Security Information and Event Management (SIEM), Threat Intelligence Platforms (TIPs), and cloud-native security tools
+ B) Only basic firewall logging without intelligence feeds
+ C) Manual tracking of security threats without centralized monitoring
+ D) No dedicated threat intelligence platforms are used
+ Answer: A",Threat Hunting Logs: Proof of proactive hunting for threats within the cloud environment.,FALSE,,,,
+,,,"6. How do you ensure that external threat intelligence sources are reliable and up to date?
+ 
+ A) Continuous validation, curated threat feeds, and collaboration with intelligence-sharing communities
+ B) Using free and unverified sources for cost savings
+ C) Relying only on static lists without frequent updates
+ D) No verification process is followed for threat intelligence sources
+ Answer: A",Incident Response Reports: Documentation of threat intelligence-driven incident response actions.,FALSE,,,,
+,,,"7. What actions are taken when a new cloud-related threat is identified?
+ 
+ A) Threat response workflows, automated mitigation, and security patching
+ B) Security teams are notified, but no immediate action is taken
+ C) The information is logged but not acted upon unless an attack occurs
+ D) No defined process exists for responding to newly identified threats
+ Answer: A",Threat Feed Validation Records: Logs or reports validating the accuracy and relevance of external threat intelligence sources.,FALSE,,,,
+,,,"8. How does your organization ensure threat intelligence is shared across relevant teams?
+ 
+ A) Automated intelligence distribution, SOC collaboration, and knowledge-sharing sessions
+ B) Only security teams have access to threat intelligence, with no wider dissemination
+ C) Intelligence is stored but not actively shared within the organization
+ D) No formal process exists for sharing threat intelligence internally
+ Answer: A",Threat Sharing & Communication Logs: Documentation showing how intelligence is shared across security teams.,FALSE,,,,
+,,,"9. What metrics or KPIs are used to assess the effectiveness of cloud threat intelligence?
+ 
+ A) Mean time to detect (MTTD), mean time to respond (MTTR), false positive rate, and threat correlation success rate
+ B) No formal metrics are used to evaluate threat intelligence effectiveness
+ C) Security incidents are tracked but not tied to specific intelligence insights
+ D) Only high-profile attacks are analyzed, with no continuous tracking
+ Answer: A","Regulatory Compliance Reports: Proof of alignment with ISO 27017, NIST, and other relevant cybersecurity standards.",FALSE,,,,
+,,,"10. How does your organization ensure compliance with regulatory requirements regarding threat intelligence and threat detection?
+ 
+ A) Threat intelligence policies aligned with ISO 27017, NIST, and regulatory frameworks
+ B) Compliance is considered but not formally documented
+ C) No formal compliance checks for threat intelligence activities
+ D) Compliance is reviewed only during audits and not as a continuous process
+ Answer: A","Security KPI Reports: Metrics demonstrating the effectiveness of threat intelligence activities (e.g., MTTD, MTTR, false positive rates, attack trends).",FALSE,,,,
+CLD.9.3,Incident Response & Forensics,"ISO/IEC 27017 mandates Incident Response & Forensics capabilities to handle security breaches, cloud forensics, and automated incident handling effectively. Organizations must have a documented incident response plan, ensure forensic evidence collection, and integrate automated threat response mechanisms. Cloud forensic techniques should support root cause analysis, containment, and mitigation of security incidents, while ensuring compliance with regulations like GDPR, ISO 27017, and NIST.","1. Does your organization have a documented cloud incident response plan?
+ 
+ A) Yes, a formalized plan aligned with ISO 27017 and NIST 800-61
+ B) There is an informal process for handling incidents
+ C) Incident response is ad hoc and handled when needed
+ D) No incident response plan exists
+ Answer: A","Incident Response Plan: Documented plan outlining roles, responsibilities, and response procedures for cloud security incidents.",FALSE,,,,
+,,,"2. How are security incidents detected and responded to in your cloud environment?
+ 
+ A) Through automated threat detection, SIEM correlation, and predefined response workflows
+ B) Only manual investigation after an incident occurs
+ C) Incidents are reported but not actively monitored
+ D) No formal detection or response mechanisms are in place
+ Answer: A","Forensic Evidence Collection Process: Proof of secure forensic data collection, chain of custody procedures, and evidence integrity measures.",FALSE,,,,
+,,,"3. How is forensic evidence collected following a cloud security incident?
+ 
+ A) Using cloud-native forensic tools, log analysis, and secure evidence storage
+ B) Evidence is collected but not in a structured manner
+ C) Incident data is not retained for forensic investigations
+ D) No forensic capabilities are implemented
+ Answer: A","Incident Logs & Analysis Reports: SIEM-generated reports of previous security incidents, detection timelines, and response actions.",FALSE,,,,
+,,,"4. What steps are taken to ensure forensic data integrity in cloud investigations?
+ 
+ A) Chain of custody, hashing, and encrypted storage of forensic data
+ B) Data is stored but can be altered if needed
+ C) No special handling for forensic data integrity
+ D) Incident data is deleted after resolution
+ Answer: A",Threat Containment Reports: Documentation showing automated and manual containment actions performed during past incidents.,FALSE,,,,
+,,,"5. How does your organization ensure incident response actions are tested regularly?
+ 
+ A) By conducting simulated attack exercises, red teaming, and tabletop exercises
+ B) Testing is done only when an actual breach occurs
+ C) There is no structured testing of incident response processes
+ D) Incident response is reactive and not proactively tested
+ Answer: A","Incident Response Testing Records: Evidence of tabletop exercises, red teaming, and security drills conducted periodically.",FALSE,,,,
+,,,"6. How is incident response automation implemented in your cloud environment?
+ 
+ A) Automated playbooks, SOAR (Security Orchestration, Automation, and Response), and AI-based threat containment
+ B) Security teams manually handle all incident response tasks
+ C) Some automated processes exist but are not fully integrated
+ D) No automation is used in incident response
+ Answer: A","Forensic Tools & Techniques Used: Logs showing usage of AWS GuardDuty, Azure Sentinel, Google Chronicle, or other cloud forensic tools.",FALSE,,,,
+,,,"7. How does your organization ensure compliance with regulatory requirements for cloud forensics?
+ 
+ A) Following regulatory frameworks (ISO 27017, GDPR, PCI DSS) and maintaining forensic logs
+ B) Compliance is considered but not formally implemented
+ C) Forensic investigations are conducted without adherence to regulations
+ D) Compliance is only checked when external audits occur
+ Answer: A","Regulatory Compliance Reports: Proof of alignment with ISO 27017, GDPR, PCI DSS, and other applicable regulations.",FALSE,,,,
+,,,"8. What forensic tools are used for cloud incident investigations?
+ 
+ A) Cloud-native forensic tools (AWS GuardDuty, Azure Sentinel, Google Chronicle) and SIEM integration
+ B) Standard operating system tools without cloud-specific capabilities
+ C) No specialized tools are used for forensic analysis
+ D) Forensic investigations are outsourced with no internal capability
+ Answer: A",Automation & SOAR Integration Reports: Evidence of automated incident handling workflows and orchestration mechanisms.,FALSE,,,,
+,,,"9. How does your organization ensure rapid containment of cloud security incidents?
+ 
+ A) Automated isolation, incident response workflows, and real-time monitoring
+ B) Incidents are reviewed manually, with no real-time containment
+ C) Security teams respond based on business hours
+ D) No containment mechanisms are in place
+ Answer: A",Immutable Log Storage Proof: Screenshots or logs showing tamper-proof forensic data storage with access control policies.,FALSE,,,,
+,,,"10. How does your organization ensure that forensic logs are tamper-proof?
+ 
+ A) Logs are stored in immutable storage with strict access controls
+ B) Logs are stored but can be modified if needed
+ C) No special protections exist for forensic logs
+ D) Logs are retained temporarily and then deleted
+ Answer: A","Post-Incident Review Reports: Documentation of incident root cause analysis, lessons learned, and security improvements implemented.",FALSE,,,,
+CLD.10.1,Cloud Workload and Virtualization Security,"ISO/IEC 27017 mandates Cloud Workload and Virtualization Security to ensure hypervisor protection, container security, Kubernetes security, VM isolation, and cloud instance hardening. Organizations must implement sandboxing, secure images, and least privilege access for virtualized environments. Security measures should prevent VM escape, unauthorized access, and misconfiguration risks to maintain compliance with ISO 27017, NIST 800-125, and CIS Benchmarks.","1. How does your organization secure hypervisors in cloud environments?
+ 
+ A) Applying vendor-recommended security patches, restricting access, and enabling hardware-assisted security features
+ B) Hypervisors are managed without specific security controls
+ C) Relying on default configurations without additional hardening
+ D) No formal security measures exist for hypervisors
+ Answer: A","Hypervisor Security Policies: Documentation on hypervisor hardening, patching schedule, and access control mechanisms.",FALSE,,,,
+,,,"2. What measures are in place to ensure the security of virtual machines (VMs) in your cloud infrastructure?
+ 
+ A) VM isolation, hardened OS configurations, and restricted admin access
+ B) VMs run with default configurations and open access
+ C) Security measures are implemented only for critical VMs
+ D) No specific security controls for VMs
+ Answer: A","VM Security Configuration Reports: Evidence of secure OS configurations, least privilege access, and VM isolation controls.",FALSE,,,,
+,,,"3. How does your organization protect against container security threats?
+ 
+ A) Using container image signing, runtime security monitoring, and vulnerability scanning
+ B) Deploying containers without scanning or verifying security risks
+ C) Containers are assumed secure because they are lightweight
+ D) No formal container security practices are in place
+ Answer: A","Container Security Assessment Reports: Proof of container runtime security, image scanning logs, and vulnerability remediation actions.",FALSE,,,,
+,,,"4. What controls are implemented for Kubernetes security?
+ 
+ A) Role-based access control (RBAC), network policies, pod security standards, and API authentication
+ B) Kubernetes clusters are left with default security settings
+ C) Security controls are applied only to worker nodes
+ D) No security measures are implemented for Kubernetes
+ Answer: A","Kubernetes Security Policies: Documentation showing RBAC implementation, pod security policies, and API authentication controls.",FALSE,,,,
+,,,"5. How does your organization prevent VM escape attacks?
+ 
+ A) Strict VM isolation, hypervisor patching, and secure multi-tenancy policies
+ B) No specific measures against VM escape attacks
+ C) Relying only on cloud provider security without additional controls
+ D) Disabling security features to enhance performance
+ Answer: A",Incident Response Logs for VM Escape Prevention: Reports demonstrating measures taken to detect and prevent VM escape attacks.,FALSE,,,,
+,,,"6. How are cloud workloads protected from unauthorized access?
+ 
+ A) Least privilege access, identity-based policies, and continuous monitoring
+ B) All users have unrestricted access to cloud workloads
+ C) Access control is managed manually without automation
+ D) No access restrictions are enforced on cloud workloads
+ Answer: A","Access Control Policies for Cloud Workloads: Logs showing enforcement of IAM policies, role-based permissions, and privilege monitoring.",FALSE,,,,
+,,,"7. What controls ensure the security of containerized workloads in production?
+ 
+ A) Runtime security monitoring, image validation, and least privilege execution
+ B) Containers are deployed without security validation
+ C) Only pre-deployment scanning is performed, with no runtime monitoring
+ D) No security controls are applied to running containers
+ Answer: A",Runtime Security Logs for Containers and VMs: Evidence of continuous monitoring for anomalies and security violations.,FALSE,,,,
+,,,"8. How does your organization ensure secure cloud instance provisioning?
+ 
+ A) Using hardened base images, automated security configuration checks, and compliance validation
+ B) Instances are provisioned without security benchmarks
+ C) Security settings are manually applied after instance deployment
+ D) No security controls for provisioning new cloud instances
+ Answer: A","Secure Cloud Instance Deployment Reports: Documentation of hardened base images, compliance validation, and provisioning workflows.",FALSE,,,,
+,,,"9. How does your organization handle sandboxing of untrusted workloads?
+ 
+ A) Running untrusted workloads in isolated environments with strict resource controls
+ B) Running untrusted applications directly in production environments
+ C) Relying on host-based security without sandboxing
+ D) No specific controls for sandboxing untrusted workloads
+ Answer: A",Sandboxing Implementation Records: Proof of sandboxing configurations for testing and running untrusted workloads securely.,FALSE,,,,
+,,,"10. How does your organization verify the integrity of VM and container images before deployment?
+ 
+ A) Image signing, vulnerability scanning, and compliance checks
+ B) Deploying images without security verification
+ C) Trusting all images from public repositories without validation
+ D) No formal verification process for cloud workload images
+ Answer: A","Image Integrity Verification Logs: Logs confirming image signing, vulnerability scanning, and policy-based approval processes.",FALSE,,,,
+CLD.10.2,Cloud Patch Management & Vulnerability Scanning,"ISO/IEC 27017 mandates Cloud Patch Management & Vulnerability Scanning to ensure continuous security through patch automation, vulnerability management, compliance scanning, and remediation. Organizations must implement secure configurations, CVE (Common Vulnerabilities and Exposures) management, and risk-based patching strategies. Regular automated scanning and patching are critical for compliance with ISO 27017, NIST 800-53, CIS Benchmarks, and PCI DSS.","1. How does your organization ensure timely patching of cloud workloads?
+ 
+ A) Automated patch management with scheduled updates and compliance verification
+ B) Patching is done manually on an ad hoc basis
+ C) Patches are applied only when security incidents occur
+ D) No structured patch management process exists
+ Answer: A","Patch Management Policy: Documented policies covering automated patching, update schedules, and remediation timelines.",FALSE,,,,
+,,,"2. How frequently are vulnerability scans conducted on cloud systems?
+ 
+ A) Continuously or at least weekly with automated reporting
+ B) Monthly or quarterly without strict enforcement
+ C) Only when a vulnerability is reported externally
+ D) No regular vulnerability scans are conducted
+ Answer: A","Vulnerability Scan Reports: Evidence of continuous scanning, detected vulnerabilities, and remediation actions.",FALSE,,,,
+,,,"3. What process is followed to prioritize vulnerability remediation?
+ 
+ A) Risk-based approach considering CVSS scores, exploitability, and business impact
+ B) Remediation is performed randomly without prioritization
+ C) Only critical vulnerabilities are patched, ignoring lower-severity ones
+ D) No structured remediation process is in place
+ Answer: A","Patch Deployment Logs: Proof of successful patch application, validation reports, and rollback plans.",FALSE,,,,
+,,,"4. How does your organization ensure cloud configurations align with security best practices?
+ 
+ A) Compliance scanning against CIS Benchmarks, NIST guidelines, and cloud provider recommendations
+ B) Configuration reviews are performed only during audits
+ C) Default configurations are used without additional hardening
+ D) No formal cloud configuration management exists
+ Answer: A",Risk-Based Remediation Strategy: Documentation outlining how vulnerabilities are prioritized and addressed based on risk.,FALSE,,,,
+,,,"5. How are unpatched vulnerabilities in cloud workloads managed?
+ 
+ A) Risk acceptance, compensating controls, or expedited patch deployment
+ B) Vulnerabilities remain unpatched indefinitely
+ C) Patches are applied only if explicitly requested by compliance teams
+ D) No formal tracking of unpatched vulnerabilities
+ Answer: A","Compliance Scanning Reports: Logs showing alignment with CIS Benchmarks, ISO 27017, and cloud security guidelines.",FALSE,,,,
+,,,"6. What tools are used for cloud vulnerability scanning?
+ 
+ A) Cloud-native scanners (AWS Inspector, Azure Defender, Google Security Command Center) and third-party tools (Nessus, Qualys, Tenable)
+ B) Vulnerability scanning is not performed
+ C) Only basic operating system checks are conducted
+ D) Relying solely on external security reports
+ Answer: A","Automation & Patch Management Tools: Evidence of AWS Systems Manager, Azure Update Management, or other patch automation tools in use.",FALSE,,,,
+,,,"7. How does your organization verify the success of applied patches?
+ 
+ A) Automated compliance scanning, patch validation reports, and security audits
+ B) Patch application is assumed successful without verification
+ C) Success is checked only if an issue arises post-patching
+ D) No verification of patching effectiveness is performed
+ Answer: A",Critical Patch Deployment Records: Reports demonstrating emergency patching processes and response times for critical vulnerabilities.,FALSE,,,,
+,,,"8. How is patch deployment automated across cloud environments?
+ 
+ A) Using centralized patch management tools (AWS Systems Manager, Azure Update Management, Google OS Patch Management)
+ B) Patches are applied manually with no automation
+ C) Automation exists but is inconsistently enforced
+ D) No patch automation is implemented
+ Answer: A",Configuration Hardening Proof: Screenshots or reports showing secure configurations enforced across cloud workloads.,FALSE,,,,
+,,,"9. How does your organization handle emergency security patches for critical vulnerabilities?
+ 
+ A) Expedited patch deployment process with predefined SLAs
+ B) Emergency patches are delayed until the next scheduled update
+ C) No specific process exists for critical security patches
+ D) Only cloud providers handle emergency patches
+ Answer: A",Cloud Provider Security Advisory Reports: Documentation confirming implementation of cloud vendor security updates.,FALSE,,,,
+,,,"10. How are outdated or end-of-life (EOL) cloud workloads managed?
+ 
+ A) Decommissioning, migrating to supported versions, or applying extended security updates
+ B) Outdated workloads continue running without security updates
+ C) Only mission-critical workloads receive updates, while others are ignored
+ D) No tracking of outdated workloads
+ Answer: A","Decommissioning or Upgrade Records: Proof of EOL workload tracking, migration strategies, and security updates.",FALSE,,,,
+CLD.11.1,Cloud Backup & Disaster Recovery,"ISO/IEC 27017 mandates Cloud Backup & Disaster Recovery (BDR) to ensure business continuity through geo-redundant cloud backups, robust disaster recovery plans (DRP), and well-defined Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO). Organizations must secure backup data through encryption, access control, and snapshot integrity while conducting regular disaster recovery testing to comply with ISO 27017, ISO 22301 (Business Continuity), NIST SP 800-34, and CIS Controls.","1. How does your organization ensure that cloud backups are secure and tamper-proof?
+ 
+ A) Encrypting backups, applying access controls, and using immutable storage
+ B) Storing backups without encryption or access restrictions
+ C) Only relying on cloud provider's built-in backup mechanisms
+ D) No specific security measures for backup protection
+ Answer: A","Cloud Backup & DRP Policy: Documented policy covering backup frequency, retention, encryption, and DR procedures.",FALSE,,,,
+,,,"2. What is the Recovery Time Objective (RTO) for your critical cloud workloads?
+ 
+ A) Clearly defined and documented based on business impact analysis
+ B) Determined on an ad hoc basis during incidents
+ C) RTO is unknown and not formally defined
+ D) RTO is only considered for on-premise systems, not cloud workloads
+ Answer: A",Backup Encryption Proof: Evidence that backups are encrypted in transit and at rest using industry-standard encryption.,FALSE,,,,
+,,,"3. How frequently does your organization test its Disaster Recovery Plan (DRP)?
+ 
+ A) At least annually, with documented results and continuous improvements
+ B) DRP testing is performed only when a major incident occurs
+ C) Disaster recovery is assumed to work without formal testing
+ D) No DRP testing is conducted
+ Answer: A",RTO & RPO Documentation: Clearly defined Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO) for critical workloads.,FALSE,,,,
+,,,"4. How are cloud backups protected against ransomware attacks?
+ 
+ A) Air-gapped or immutable backups with versioning and anomaly detection
+ B) Relying solely on primary production data without backup segregation
+ C) Backups are stored in the same environment as production data
+ D) No specific protection measures against ransomware
+ Answer: A",Disaster Recovery Test Reports: Proof of annual or periodic DR testing results and corrective actions taken.,FALSE,,,,
+,,,"5. What is the Recovery Point Objective (RPO) for your most critical data?
+ 
+ A) Clearly defined based on business needs and data loss tolerance
+ B) Determined only during a disaster recovery event
+ C) RPO is not formally documented or tested
+ D) Data recovery objectives are managed manually without clear metrics
+ Answer: A","Immutable & Air-Gapped Backup Configurations: Evidence of ransomware protection mechanisms, such as immutable backups.",FALSE,,,,
+,,,"6. How does your organization ensure backup data integrity and recoverability?
+ 
+ A) Automated backup verification, checksum validation, and recovery drills
+ B) Backups are assumed to be recoverable without testing
+ C) Recovery testing is performed only if an issue is reported
+ D) No formal backup integrity checks exist
+ Answer: A","Backup Integrity & Recovery Validation Logs: Reports showing backup verification processes, checksum validation, and recovery success rates.",FALSE,,,,
+,,,"7. Where are backup copies stored to ensure geo-redundancy?
+ 
+ A) In multiple geographically separate cloud regions with failover capabilities
+ B) All backups are stored in the same region as production workloads
+ C) Backups are stored on-premise without cloud replication
+ D) No secondary backup location is maintained
+ Answer: A",Geo-Redundant Backup Locations: Documentation confirming storage of backups across multiple cloud regions.,FALSE,,,,
+,,,"8. What measures are in place to restrict unauthorized access to backup data?
+ 
+ A) Strict IAM controls, multi-factor authentication (MFA), and role-based access
+ B) Backups are accessible to all users with minimal restrictions
+ C) Access control policies are applied only during audits
+ D) No formal access restrictions exist for backup data
+ Answer: A","Access Control & IAM Policies for Backups: Logs showing restricted access based on roles, MFA enforcement, and audit trails.",FALSE,,,,
+,,,"9. How is backup retention managed to meet compliance requirements?
+ 
+ A) Backup retention policies align with regulatory and business requirements
+ B) Backups are retained indefinitely without review
+ C) Retention is determined on an ad hoc basis without documentation
+ D) No formal backup retention policies exist
+ Answer: A","Backup Retention Policies: Records ensuring compliance with GDPR, HIPAA, PCI DSS, or other regulatory requirements.",FALSE,,,,
+,,,"10. What is the process for initiating a disaster recovery failover in your organization?
+ 
+ A) Clearly defined, documented, and automated failover procedures
+ B) Failover is handled manually without predefined processes
+ C) Disaster recovery is assumed to be automatic without validation
+ D) No formal process for disaster recovery failover exists
+ Answer: A",Disaster Recovery Failover Documentation: Step-by-step procedure for failover execution and service restoration.,FALSE,,,,
+CLD.11.2,Cloud Availability & Resilience,"ISO/IEC 27017 emphasizes Cloud Availability & Resilience to ensure continuous service delivery through high availability (HA), redundancy planning, load balancing, and auto-scaling mechanisms. Organizations must design cloud architectures that mitigate single points of failure, implement failover strategies, and ensure service continuity in compliance with ISO 27017, ISO 22301 (Business Continuity), NIST SP 800-160, and CIS Controls.","1. What measures are in place to ensure high availability (HA) of critical cloud workloads?
+ 
+ A) Multi-region deployment, failover strategies, and redundant infrastructure
+ B) Relying solely on cloud provider uptime guarantees
+ C) No specific HA measures are in place
+ D) Manual recovery processes in case of failure
+ Answer: A","High Availability (HA) Architecture Diagrams: Proof of multi-region, multi-AZ deployments and redundancy strategies.",FALSE,,,,
+,,,"2. How does your organization implement load balancing in cloud environments?
+ 
+ A) Cloud-native load balancers (AWS ALB/NLB, Azure Load Balancer, Google Cloud Load Balancer)
+ B) No load balancing is used; requests are routed manually
+ C) Load balancing is performed at the application level only
+ D) Only hardware-based load balancing is used
+ Answer: A",Load Balancer Configurations: Documentation showing cloud-native load balancer implementations and traffic routing strategies.,FALSE,,,,
+,,,"3. What redundancy planning strategies are used to prevent single points of failure?
+ 
+ A) Multi-AZ, multi-region architectures, and database replication
+ B) Running all workloads in a single cloud zone
+ C) Relying solely on backups instead of redundancy
+ D) No formal redundancy planning
+ Answer: A","Redundancy Planning Documents: Evidence of failover mechanisms, replication strategies, and data availability measures.",FALSE,,,,
+,,,"4. How does your organization handle cloud service disruptions to ensure resilience?
+ 
+ A) Automated failover mechanisms and service degradation handling
+ B) Relying solely on cloud provider SLAs
+ C) Waiting for manual intervention to resolve outages
+ D) No documented resilience strategy exists
+ Answer: A",Auto-Scaling Policies & Logs: Proof of threshold-based auto-scaling and historical scaling activities.,FALSE,,,,
+,,,"5. How is auto-scaling configured for handling fluctuating workloads?
+ 
+ A) Dynamic auto-scaling with thresholds for CPU, memory, and network traffic
+ B) Scaling decisions are made manually on demand
+ C) Fixed infrastructure with no scalability planning
+ D) Relying on third-party vendors for scaling
+ Answer: A","Cloud Service Uptime Reports: Monitoring logs from AWS CloudWatch, Azure Monitor, or equivalent tools.",FALSE,,,,
+,,,"6. What cloud monitoring tools are used for availability and resilience tracking?
+ 
+ A) Cloud-native monitoring solutions (AWS CloudWatch, Azure Monitor, Google Cloud Operations)
+ B) No monitoring tools are implemented
+ C) Only on-premise monitoring tools are used for cloud workloads
+ D) Monitoring is done manually through occasional checks
+ Answer: A","Resilience Testing Reports: Results from failover drills, HA testing, and incident response exercises.",FALSE,,,,
+,,,"7. How does your organization ensure continuity during peak usage times?
+ 
+ A) Auto-scaling, caching strategies, and workload distribution
+ B) No special measures are in place
+ C) Manually scaling resources when needed
+ D) Restricting service availability during peak times
+ Answer: A",Failover Mechanism Proof: Screenshots or logs confirming automated failover execution.,FALSE,,,,
+,,,"8. What failover mechanisms are in place for cloud services?
+ 
+ A) Automated failover with health checks and secondary service activation
+ B) Manual failover processes initiated by administrators
+ C) No failover mechanisms are implemented
+ D) Relying solely on backups for failover
+ Answer: A",Service Disruption Handling Procedures: Incident management documents detailing response plans for cloud service failures.,FALSE,,,,
+,,,"9. How often are availability and resilience strategies tested?
+ 
+ A) At least annually through resilience drills and failover testing
+ B) Only when a service outage occurs
+ C) Availability testing is not performed regularly
+ D) Only theoretical resilience planning without testing
+ Answer: A","Availability & Performance Metrics: Historical data showcasing system uptime, latency, and scalability efficiency.",FALSE,,,,
+,,,"10. How does your organization ensure cloud service recovery aligns with business objectives?
+ 
+ A) Aligning Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO) with business impact analysis
+ B) No structured recovery objectives exist
+ C) Recovery objectives are determined only post-incident
+ D) Relying solely on cloud provider uptime guarantees
+ Answer: A",Cloud Provider SLA Agreements: Contracts ensuring minimum uptime commitments and resilience guarantees.,FALSE,,,,
+CLD.12.1,Cloud DevSecOps & Secure CI/CD Pipelines,"ISO/IEC 27017 enforces Cloud DevSecOps & Secure CI/CD Pipelines to integrate security within development, testing, and deployment workflows. This includes secure coding practices, Static and Dynamic Application Security Testing (SAST/DAST), Infrastructure as Code (IaC) security, supply chain security, and automated security testing. Organizations must align DevSecOps with ISO 27017, ISO 27001 Annex A.14 (Secure Development), NIST SP 800-53, and OWASP SAMM to ensure software integrity and resilience.","1. How does your organization enforce secure coding practices in cloud-based development?
+ 
+ A) Developers follow secure coding guidelines, conduct peer reviews, and use automated code scanning tools
+ B) Security reviews are conducted only before production release
+ C) Secure coding is left to individual developer discretion
+ D) No formal secure coding practices exist
+ Answer: A","Secure Development Policy: Documented policies enforcing secure coding, CI/CD security practices, and compliance with OWASP and NIST frameworks.",FALSE,,,,
+,,,"2. What mechanisms are in place to identify vulnerabilities in application code before deployment?
+ 
+ A) SAST/DAST tools, Software Composition Analysis (SCA), and automated security testing
+ B) Only manual code reviews are performed
+ C) Vulnerability scanning is conducted after deployment
+ D) No pre-deployment security scanning is performed
+ Answer: A","Code Review & Security Testing Logs: Evidence of SAST/DAST scanning, manual code reviews, and automated security tests before deployment.",FALSE,,,,
+,,,"3. How does your organization secure Infrastructure as Code (IaC) configurations?
+ 
+ A) Automated security scans for misconfigurations, IaC policy enforcement, and secrets management
+ B) Manual code reviews without automation
+ C) Relying solely on cloud provider security features
+ D) No specific security measures for IaC
+ Answer: A","IaC Security Reports: Results from Terraform, AWS CloudFormation, or Kubernetes security scans (e.g., Checkov, KICS, Trivy).",FALSE,,,,
+,,,"4. How are secrets (e.g., API keys, credentials) managed in CI/CD pipelines?
+ 
+ A) Using secure vaults (AWS Secrets Manager, HashiCorp Vault, Azure Key Vault)
+ B) Storing secrets directly in source code repositories
+ C) Hardcoding credentials in configuration files
+ D) No defined secrets management strategy
+ Answer: A","Secrets Management Documentation: Proof of API key and credential storage using secure vaults (e.g., AWS Secrets Manager, Azure Key Vault).",FALSE,,,,
+,,,"5. What security checks are performed before deploying code to production?
+ 
+ A) Automated security scans, compliance checks, and vulnerability assessments
+ B) No security checks before deployment
+ C) Manual security reviews by the development team only
+ D) Security testing is performed post-deployment only
+ Answer: A",Supply Chain Security Controls: Records showing dependency vulnerability scanning and verification of third-party software.,FALSE,,,,
+,,,"6. How does your organization secure third-party dependencies in cloud applications?
+ 
+ A) Software Composition Analysis (SCA) and dependency vulnerability scanning
+ B) Using third-party dependencies without security validation
+ C) Updating dependencies only when an issue arises
+ D) Relying solely on vendor assurances
+ Answer: A","CI/CD Pipeline Security Configurations: Screenshots or logs showing security checks integrated into GitHub Actions, GitLab CI/CD, or Jenkins.",FALSE,,,,
+,,,"7. What measures are in place to prevent supply chain attacks in cloud development?
+ 
+ A) Verifying software provenance, enforcing digital signatures, and continuous monitoring
+ B) No specific protections against supply chain threats
+ C) Relying only on cloud provider security controls
+ D) Manually assessing third-party software security
+ Answer: A",Incident Response Documentation: Records of vulnerability mitigation steps and blocked insecure deployments.,FALSE,,,,
+,,,"8. How does your organization handle security misconfigurations in cloud CI/CD pipelines?
+ 
+ A) Automated misconfiguration scanning tools (e.g., KICS, Checkov, CloudFormation Linter)
+ B) Manually reviewing configurations after deployment
+ C) No formal process for identifying misconfigurations
+ D) Relying solely on third-party security audits
+ Answer: A",Threat Modeling Reports: Documentation of threat modeling exercises for identifying potential risks in cloud development.,FALSE,,,,
+,,,"9. How often are security tests conducted within your CI/CD pipelines?
+ 
+ A) Continuously, with every code commit and deployment
+ B) Only before major software releases
+ C) Security tests are conducted ad hoc
+ D) No security testing is performed within CI/CD pipelines
+ Answer: A",Security Awareness Training Records: Logs of developer training on secure coding and CI/CD security best practices.,FALSE,,,,
+,,,"10. What actions are taken if security vulnerabilities are detected in the development pipeline?
+ 
+ A) Code is blocked from deployment until vulnerabilities are remediated
+ B) Vulnerabilities are noted but not immediately fixed
+ C) The issue is assessed only after deployment
+ D) No formal remediation process exists
+ Answer: A",Audit Logs & Monitoring Data: Cloud security monitoring reports showing anomalous CI/CD activities and proactive security controls.,FALSE,,,,
+CLD.12.2,Cloud Container & Kubernetes Security,"ISO/IEC 27017 mandates Cloud Container & Kubernetes Security to protect containerized workloads in cloud environments. Organizations must secure Docker images, enforce Kubernetes Role-Based Access Control (RBAC), segment namespaces, and implement least privilege principles for containers. Compliance with ISO 27001 Annex A.14 (Secure Development), NIST SP 800-190 (Application Container Security Guide), and CIS Kubernetes Benchmarks ensures a robust security posture for containerized applications.","1. How does your organization ensure the security of container images before deployment?
+ 
+ A) Scanning container images for vulnerabilities using tools like Trivy or Clair
+ B) Deploying containers without security checks
+ C) Using images from unverified sources
+ D) Relying solely on cloud provider security features
+ Answer: A","Container Image Security Reports: Reports from container vulnerability scanning tools (e.g., Trivy, Clair, Anchore).",FALSE,,,,
+,,,"2. What security measures are in place to protect Kubernetes API access?
+ 
+ A) RBAC enforcement, API authentication via tokens/certificates, and audit logging
+ B) Kubernetes API is open to all users without authentication
+ C) API security is managed by the developers only
+ D) No specific security controls for API access
+ Answer: A","Kubernetes RBAC Configurations: Documentation of RBAC policies, roles, and least privilege access controls.",FALSE,,,,
+,,,"3. How does your organization enforce least privilege access in Kubernetes?
+ 
+ A) Using Role-Based Access Control (RBAC) with least privilege principles
+ B) Assigning admin privileges to all users
+ C) Not restricting access based on roles
+ D) Managing access manually on an as-needed basis
+ Answer: A","Namespace & Network Segmentation Policies: Proof of namespace segmentation, Kubernetes network policies, and firewall rules.",FALSE,,,,
+,,,"4. How are container runtime security risks mitigated in your cloud environment?
+ 
+ A) Using runtime security tools like Falco, AppArmor, or SELinux
+ B) Containers run with full root privileges
+ C) Security is handled post-deployment only
+ D) No specific runtime security measures exist
+ Answer: A","Runtime Security Enforcement: Logs from runtime security tools like Falco, AppArmor, SELinux, or Seccomp.",FALSE,,,,
+,,,"5. What mechanisms are used to segment workloads in Kubernetes clusters?
+ 
+ A) Namespace segmentation, network policies, and pod security policies
+ B) Running all workloads in a single namespace
+ C) Using only firewall rules for isolation
+ D) No segmentation is enforced
+ Answer: A",Kubernetes Secrets Management: Evidence of encrypted Kubernetes Secrets and integration with secure vaults.,FALSE,,,,
+,,,"6. How does your organization secure Kubernetes secrets?
+ 
+ A) Using Kubernetes Secrets encrypted at rest and integrating with vaults (AWS Secrets Manager, HashiCorp Vault)
+ B) Storing secrets in container environment variables
+ C) Hardcoding secrets in application source code
+ D) No formal secrets management strategy
+ Answer: A",Pod Security Policies & Security Context: Documentation showing enforced security settings to restrict privilege escalation.,FALSE,,,,
+,,,"7. How are unauthorized container privilege escalations prevented?
+ 
+ A) Implementing Pod Security Policies (PSP) or Kubernetes Security Context
+ B) Allowing containers to run as root
+ C) No restrictions on privilege escalation
+ D) Relying on cloud provider security alone
+ Answer: A","Audit Log Configuration & SIEM Integration: Proof that Kubernetes audit logs are enabled and monitored using SIEM solutions (e.g., Splunk, ELK, AWS Security Hub).",FALSE,,,,
+,,,"8. How does your organization ensure Kubernetes audit logs are monitored?
+ 
+ A) Enabling Kubernetes audit logging and integrating with SIEM solutions
+ B) Audit logs are disabled to reduce storage costs
+ C) Logs are only reviewed during incidents
+ D) No centralized logging strategy exists
+ Answer: A","Container Networking Controls: Evidence of Kubernetes Network Policies and security configurations in service meshes (e.g., Istio, Linkerd).",FALSE,,,,
+,,,"9. How do you ensure container network security?
+ 
+ A) Using Kubernetes Network Policies and service mesh security (e.g., Istio, Linkerd)
+ B) Relying only on cloud provider VPC security
+ C) Not applying network restrictions within the cluster
+ D) Using only external firewalls without internal segmentation
+ Answer: A","Supply Chain Security Compliance: Records of container image signing, software bill of materials (SBOM), and third-party security validation.",FALSE,,,,
+,,,"10. What security controls are in place to protect against supply chain risks in containerized applications?
+ 
+ A) Container image signing, supply chain validation, and SBOM (Software Bill of Materials) scanning
+ B) Using any public container images without verification
+ C) Assuming all cloud provider images are secure
+ D) No formal process for validating third-party dependencies
+ Answer: A",Incident Response & Remediation Logs: Reports demonstrating how detected container security threats are mitigated.,FALSE,,,,
+CLD.13.1,Cloud Supplier & Third-Party Risk Management,"ISO/IEC 27017 and ISO/IEC 27036 (Supplier Relationships Security) mandate Cloud Supplier & Third-Party Risk Management to ensure security and compliance in cloud-based vendor relationships. Organizations must assess vendor security, conduct compliance audits, evaluate Cloud Service Provider (CSP) risks, manage legal obligations, and secure the supply chain. Adherence to SOC 2, NIST 800-161 (Supply Chain Risk Management), GDPR, and CSA STAR ensures a robust vendor risk management framework.","1. How does your organization assess the security posture of cloud vendors before onboarding?
+ 
+ A) Conducting third-party security assessments, due diligence, and risk evaluations
+ B) Trusting vendor claims without verification
+ C) Selecting vendors solely based on cost-effectiveness
+ D) Allowing business units to onboard vendors without security review
+ Answer: A","Vendor Security Risk Assessments: Reports on cloud vendor security evaluations, risk ratings, and third-party due diligence.",FALSE,,,,
+,,,"2. What security compliance frameworks do you require cloud vendors to adhere to?
+ 
+ A) ISO 27017, SOC 2, CSA STAR, NIST 800-161, GDPR
+ B) Only internal company policies
+ C) Vendors manage security at their discretion
+ D) No specific compliance requirements
+ Answer: A","Cloud Supplier Contracts & SLAs: Signed agreements with security clauses, audit rights, data protection terms, and compliance obligations.",FALSE,,,,
+,,,"3. How do you ensure contractual agreements with cloud vendors include security and compliance obligations?
+ 
+ A) Including security clauses, audit rights, and compliance mandates in contracts
+ B) Relying on vendor-provided security statements
+ C) No formal security obligations in contracts
+ D) Reviewing security terms only during vendor renewals
+ Answer: A","Compliance Certifications of Vendors: Vendor-provided evidence of ISO 27017, SOC 2, CSA STAR, or NIST compliance.",FALSE,,,,
+,,,"4. How frequently do you perform security assessments on third-party cloud providers?
+ 
+ A) Annually or as per risk exposure, with ongoing monitoring
+ B) Only at the time of onboarding
+ C) No formal assessment process
+ D) Relying on vendor self-assessments
+ Answer: A",Third-Party Audit Reports: Internal or external audit reports evaluating third-party security and risk management controls.,FALSE,,,,
+,,,"5. What controls are in place to monitor third-party access to sensitive cloud environments?
+ 
+ A) Strict access controls, logging, monitoring, and least privilege principles
+ B) Vendors have unrestricted access to all systems
+ C) Access control is determined by vendors
+ D) No specific monitoring of vendor access
+ Answer: A","Third-Party Access Control Policies: Policies defining access restrictions, least privilege enforcement, and vendor authentication methods.",FALSE,,,,
+,,,"6. How does your organization handle cloud vendor security breaches or non-compliance incidents?
+ 
+ A) Defined incident response, contract enforcement, and contingency planning
+ B) No predefined process for vendor security incidents
+ C) Addressing issues only after a security breach occurs
+ D) Relying on vendor self-reporting without verification
+ Answer: A",Incident Response Plans for Vendor Breaches: Documentation outlining processes for handling third-party security incidents.,FALSE,,,,
+,,,"7. How do you ensure supply chain security in cloud vendor relationships?
+ 
+ A) Supplier risk assessment, security audits, and contractual obligations for sub-contractors
+ B) No oversight of supplier security
+ C) Assuming vendors manage their own supply chain security
+ D) Only performing due diligence on primary cloud vendors
+ Answer: A","Vendor Security Monitoring Logs: Evidence of continuous security monitoring, log analysis, and compliance tracking.",FALSE,,,,
+,,,"8. How does your organization track vendor compliance over time?
+ 
+ A) Continuous monitoring, compliance attestations, and periodic reassessments
+ B) One-time review at the time of onboarding
+ C) No ongoing compliance tracking
+ D) Trusting vendor compliance without audits
+ Answer: A","Supply Chain Risk Management Policies: Documentation of supplier security validation, sub-contractor oversight, and risk mitigation strategies.",FALSE,,,,
+,,,"9. What security assurances do you require from cloud vendors regarding data protection?
+ 
+ A) Encryption, access control, data residency compliance, and auditability
+ B) Relying on vendor security claims without proof
+ C) Assuming all vendors follow best practices
+ D) No formal data protection requirements for vendors
+ Answer: A","Data Protection & Encryption Agreements: Contracts specifying encryption, data sovereignty, and retention policies for vendor-handled data.",FALSE,,,,
+,,,"10. How do you manage the offboarding process for cloud vendors to mitigate risks?
+ 
+ A) Revoking access, securely transferring or deleting data, and finalizing security reviews
+ B) Vendors retain access indefinitely
+ C) No formal vendor offboarding process
+ D) Relying on vendors to manage offboarding security
+ Answer: A","Vendor Offboarding Procedures: Evidence of secure decommissioning, data transfer, and access revocation processes.",FALSE,,,,
+CLD.13.2,Cloud Shared Responsibility Model,"ISO/IEC 27017 emphasizes the Cloud Shared Responsibility Model, defining security obligations between Cloud Service Providers (CSPs) and customers. Organizations must ensure clear delineation of responsibilities, SLA enforcement, risk transfer mechanisms, and compliance alignment (SOC 2, ISO 27001, GDPR, PCI DSS, NIST 800-53). Effective governance ensures accountability in security operations, data protection, and regulatory compliance.","1. How does your organization ensure a clear understanding of shared security responsibilities with your CSP?
+ 
+ A) Reviewing CSP security documentation, contractually defining responsibilities, and aligning with compliance frameworks
+ B) Assuming the CSP handles all security responsibilities
+ C) Ignoring security responsibilities and focusing only on business operations
+ D) Relying on informal agreements without contractual security clauses
+ Answer: A","Cloud Shared Responsibility Matrix: Documentation outlining CSP vs. customer security responsibilities for IaaS, PaaS, and SaaS environments.",FALSE,,,,
+,,,"2. Where is the boundary of security responsibility between your organization and the CSP for cloud-based workloads?
+ 
+ A) Defined in the shared responsibility model based on the cloud service type (IaaS, PaaS, SaaS)
+ B) The CSP is responsible for everything
+ C) The customer is solely responsible for all security measures
+ D) There is no defined boundary
+ Answer: A","CSP Security Certifications & Compliance Reports: Proof of ISO 27017, SOC 2, CSA STAR, and GDPR compliance from the cloud provider.",FALSE,,,,
+,,,"3. How do you ensure that security controls for customer-managed areas (e.g., data, configurations, access) are properly enforced?
+ 
+ A) Implementing internal security controls, audits, and monitoring for compliance
+ B) Relying on the CSP to handle security for customer-managed areas
+ C) Not implementing any additional security controls beyond what the CSP provides
+ D) No enforcement mechanisms in place
+ Answer: A","Security SLAs and Contractual Agreements: Signed service agreements with defined security obligations, risk transfer clauses, and audit rights.",FALSE,,,,
+,,,"4. How do you validate that the CSP meets its security obligations under the shared responsibility model?
+ 
+ A) Reviewing SOC 2, ISO 27017, CSA STAR certifications, and conducting security audits
+ B) Assuming compliance without verification
+ C) Relying solely on the CSP’s marketing claims
+ D) Not evaluating CSP security at all
+ Answer: A","Internal Cloud Security Policies: Policies detailing customer-managed security responsibilities, including access control, data protection, and incident response.",FALSE,,,,
+,,,"5. What measures are in place to enforce SLA terms related to security and compliance?
+ 
+ A) Defining security SLAs, periodic compliance assessments, and contractual enforcement
+ B) No specific SLA terms related to security
+ C) Accepting CSP-provided SLAs without verification
+ D) Ignoring SLA enforcement for security compliance
+ Answer: A",Audit & Compliance Reports: Internal or external audit reports verifying adherence to the shared responsibility model.,FALSE,,,,
+,,,"6. How do you ensure proper risk transfer mechanisms in cloud contracts?
+ 
+ A) Defining liability clauses, insurance coverage, and security breach accountability
+ B) No risk transfer mechanisms in place
+ C) Relying on CSP goodwill for risk handling
+ D) Ignoring risk allocation in cloud contracts
+ Answer: A",Risk Assessment Documentation: Reports assessing security risks related to CSP-managed and customer-managed responsibilities.,FALSE,,,,
+,,,"7. How does your organization monitor CSP compliance with regulatory frameworks (e.g., GDPR, PCI DSS, ISO 27017)?
+ 
+ A) Performing compliance audits, reviewing third-party attestations, and monitoring regulatory updates
+ B) Assuming compliance without verification
+ C) Relying on the CSP’s legal team to handle compliance
+ D) No compliance monitoring is performed
+ Answer: A","Incident Response & Liability Agreements: Documentation defining how security breaches, compliance violations, and liability are handled.",FALSE,,,,
+,,,"8. How does your organization ensure that cloud security configurations align with the shared responsibility model?
+ 
+ A) Conducting regular security assessments, vulnerability scans, and compliance checks
+ B) Leaving all configurations to the CSP
+ C) Not managing security configurations at all
+ D) Relying on default security settings without review
+ Answer: A
+ 9. How do you ensure that security responsibilities are communicated across internal teams?
+ 
+ A) Providing cloud security awareness training, enforcing policies, and documenting responsibilities
+ B) Assuming that employees understand responsibilities without training
+ C) Leaving security responsibility communication to individual departments
+ D) Not communicating security responsibilities internally
+ Answer: A","Cloud Security Awareness Training Records: Evidence of employee training on shared responsibility, security configurations, and compliance requirements.",FALSE,,,,
+,,,"9. How do you ensure that security responsibilities are communicated across internal teams?
+ 
+ A) Providing cloud security awareness training, enforcing policies, and documenting responsibilities
+ B) Assuming that employees understand responsibilities without training
+ C) Leaving security responsibility communication to individual departments
+ D) Not communicating security responsibilities internally
+ Answer: A","Security Configuration & Monitoring Logs: Reports from cloud security tools (e.g., AWS Security Hub, Azure Security Center, GCP Security Command Center) verifying security configurations.",FALSE,,,,
+,,,"10. What processes are in place to regularly review and update your cloud security responsibilities?
+ 
+ A) Periodic contract reviews, risk assessments, and adapting to evolving compliance requirements
+ B) Keeping the initial contract unchanged indefinitely
+ C) Ignoring security responsibilities after the initial contract signing
+ D) Relying solely on the CSP to update security terms
+ Answer: A","Regular Security Review Records: Documentation showing periodic contract reviews, SLA updates, and alignment with new compliance standards.",FALSE,,,,
